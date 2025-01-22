@@ -1,25 +1,20 @@
 ## You should change each of the following fields
 ## to customize your blog
 
-title: Stat 386 Blog
-description: "This description of the blog will appear on the 'About' page." 
-author: Your name
-author_description: "This description of who you are will appear on the 'About' page." 
+title: The Data Bean
+description: "I am entirely new to the data world and as such, my thoughts are as undeveloped as my coding abilities. Join me as I reflect, learn, practice, and am left victorious." 
+author: Bella Bean
+author_description: "Hi! I'm a machine learning major with a desire to make order or enjoy the chaos of anything and everything around me. I love to code and solve problems the American way: crying over my laptop until I can declare 'Eureka!'" 
 
-url: https://esnt.github.io ## change this to https://yourusername.github.io
-baseurl: /another-stat386-theme ## change this to the name of your blog repository
-header_image: /assets/img/headerimg.jpg ## change your header image if you want
+url: https://gbean4.github.io ## change this to https://yourusername.github.io
+baseurl: /my-blog ## change this to the name of your blog repository
+header_image: "Gemini_Generated_Image_e7op9be7op9be7op.jpg" ## change your header image if you want
 
 ## Add your social media user names.  Github is required, the rest are optional
 social:
-    github:  ## required
-    twitter: 
-    facebook: 
-    email: 
-    linkedin: 
-    youtube: 
-    tumblr: 
-    website: 
+    github:  gbean4 ## required
+    email: gbean4@byu.edu
+    linkedin: www.linkedin.com/in/bella-bean-99078320a 
 
 
 

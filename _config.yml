@@ -8,7 +8,7 @@ author_description: "Hi! I'm a machine learning major with a desire to make orde
 
 url: https://gbean4.github.io ## change this to https://yourusername.github.io
 baseurl: /my-blog ## change this to the name of your blog repository
-header_image: "Gemini_Generated_Image_e7op9be7op9be7op.jpg" ## change your header image if you want
+header_image: 'https://thumb.ac-illust.com/50/50b0394ba731e9ab09f2d9874ceeab86_t.jpeg' ## change your header image if you want
 
 ## Add your social media user names.  Github is required, the rest are optional
 social:

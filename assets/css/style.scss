@@ -33,3 +33,11 @@
 }
 
 // If IE support is needed you can add them here or create another stylesheet for specific IE fixes
+// change Title color
+.header h1 a {
+    color: #047817;  // switch this with your hex color
+    text-decoration: none;
+    &:hover {  // optional
+        color: darken(#f5a39f, 20%);
+    }
+}

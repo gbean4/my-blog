@@ -8,7 +8,7 @@ My favorite department at BYU is the [Statistics Department](https://statistics.
 
 ![Figure]({{site.url}}/{{site.baseurl}}gbean4/my-blog/assets/img/Gemini_Generated_Image_f2pek5f2pek5f2pe.jpg)
 
-<img src="{{site.url}}/{{site.baseurl}}/assets/img/image_name.jpg" alt="" style="width:300px;"/>
+<img src="{{site.url}}/{{site.baseurl}}/assets/img/Gemini_Generated_Image_f2pek5f2pek5f2pe.jpg" alt="" style="width:300px;"/>
 
 
 <p class="intro"><span class="dropcap">C</span>urabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.</p>

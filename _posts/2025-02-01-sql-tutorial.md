@@ -6,7 +6,7 @@ description: This is a post was provided by the template to show how to format d
 ---
 My favorite department at BYU is the [Statistics Department](https://statistics.byu.edu).
 
-![Figure]({{site.url}}/{{site.baseurl}}/assets/img/image_name.jpg)
+![Figure]({{site.url}}/{{site.baseurl}}gbean4/my-blog/assets/img/Gemini_Generated_Image_f2pek5f2pek5f2pe.jpg)
 
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/image_name.jpg" alt="" style="width:300px;"/>
 

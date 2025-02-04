@@ -72,8 +72,9 @@ FROM Movies
 {%- endhighlight -%}
 If you run this in your IDE, you will see the following result!
 <figure>
-	<img src="{{site.url}}/{{site.baseurl}}C:\Users\gabri\OneDrive\Documents\Stat386\Screenshot1.jpg" alt=""> 
+    <img src="{{site.url}}/{{site.baseurl}}/assets/images/Screenshot1.jpg" alt="Descriptive text">
 </figure>
+
 
 
 

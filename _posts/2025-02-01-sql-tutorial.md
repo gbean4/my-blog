@@ -43,8 +43,8 @@ VALUES
 {%- endhighlight -%}
 
 ##### Code Explanation:
-If the code above confuses you, no worries! I got you. SQL's purpose is for data retrieval, manipulation, and management. This means you'll start all your queries either initializing a database and inserting values or retrieving a database from some other source. The “CREATE TABLE” functioninitializes your table (called 'Movies') with keys, or column names. 'MovieID' is considered the PRIMARY KEY (meaning the special name given to each record) because each row will have a unique value.
-The second function (starting with INSERT INTO)creates records and inserts them into the 'Movies' table we just created.
+If the code above confuses you, no worries! I got you. SQL's purpose is for data retrieval, manipulation, and management. This means you'll start all your queries either initializing a database and inserting values or retrieving a database from some other source. The CREATE TABLE function initializes your table (called 'Movies') with keys, or column names. 'MovieID' is considered the PRIMARY KEY (meaning the special name given to each record) because each row will have a unique value.
+The second function (starting with INSERT INTO) creates records and inserts them into the 'Movies' table we just created.
 
 ### Definitions:
 Okay! Now that your datatable is set up and your IDE is running, we can start to query the data. Each SQL query has a few elements we want to keep in mind. The only two required elements are SELECT and FROM, as without these, your code won't know what to grab and from where (respectively).  
@@ -65,9 +65,23 @@ Okay! Now that your datatable is set up and your IDE is running, we can start to
   <dd>Specifies conditions that apply to fields that are summarized in the SELECT statement.</dd>
 </dl>
 
+For example, if you wanted to query all your data view in one table, you could use the following code:
+{%- highlight SQL -%}
+SELECT *
+FROM Movies
+{%- endhighlight -%}
+If you run this in your IDE, you will see the following result!
+<figure>
+	<img src="{{site.url}}/{{site.baseurl}}/assets/img/touring.jpg" alt=""> 
+	<figcaption>Figure 1. - This is an example figcaption</figcaption>
+</figure>
+
+
+
+
+
 
 #### And Remember:
-
 {%- highlight SQL -%}
 SELECT *
 FROM World
@@ -76,4 +90,4 @@ LIKE "%You%"
 ...
 />no results
 {%- endhighlight -%}
-##### Meaning: when querying the world, there's only 1 result like you ;)
+Meaning: when querying the world, there's only 1 result like you ;)

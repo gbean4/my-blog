@@ -71,9 +71,10 @@ SELECT *
 FROM Movies
 {%- endhighlight -%}
 If you run this in your IDE, you will see the following result!
-<figure>
-    <img src="/assets/img/Screenshot2.jpg" alt="Descriptive text">
-</figure>
+
+<img src="{{site.url}}/{{site.baseurl}}/assets/img/Screenshot2.jpg" alt="" style="width:300px;"/>
+
+Yay! This is great. 
 
 
 

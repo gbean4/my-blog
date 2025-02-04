@@ -19,18 +19,14 @@ We'll start by:
 
 Good Luck!!
 
-#### Definitions:
-<dl>
-  <dt>Coffee</dt>
-  <dd>Black hot drink</dd>
-  <dt>Milk</dt>
-  <dd>White cold drink</dd>
-</dl>
-
-<blockquote>SELECT *
-FROM World
-WHERE "Someone"
-LIKE "%You%"</blockquote>
+### Definitions:
+| SQL clause     | What it does | Required|
+| ----------- | ----------- |
+| Query       | Question about a set of data | Yes|
+| SELECT      | Lists the fields that contain data of interest.        | Yes |
+| FROM        | Lists the tables that contain the fields listed in the SELECT clause. | No |
+| WHERE       | Specifies field criteria that must be met by each record to be included in the results. | No |
+| ORDER BY	| 	Specifies how to sort the results. | No |
 
 
 ## Definition List
@@ -40,8 +36,6 @@ LIKE "%You%"</blockquote>
   <dt>Milk</dt>
   <dd>White cold drink</dd>
 </dl>
-
-Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
 
 ## Table
 
@@ -59,6 +53,8 @@ SELECT *
 FROM World
 WHERE "Someone"
 LIKE "%You%"
+...
+/>no results
 {%- endhighlight -%}
 
 

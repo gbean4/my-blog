@@ -72,8 +72,9 @@ FROM Movies
 {%- endhighlight -%}
 If you run this in your IDE, you will see the following result!
 <figure>
-    <img src="C:\Users\gabri\OneDrive\Documents\Stat386\my-blog-file\blog_theme_and_layout\assets\img\Screenshot1.jpg" alt="Descriptive text">
+    <img src="/assets/img/Screenshot1.jpg" alt="Descriptive text">
 </figure>
+
 
 
 

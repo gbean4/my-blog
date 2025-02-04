@@ -6,23 +6,17 @@ description: This post is designed to help define basic SQL functions and guide 
 
 ---
 
-<p class="intro"><span class="dropcap">T</span>here I was, Fall 2022, sitting in a large lecture hall in the basement of the Utah State business college. Unsure of my life’s path and my career opportunities, I was a hesitant bioengineering major in a random data science class, just trying to make it work—-when suddenly my world was changed. Changed by what, you may ask? The beauty of SQL. </p>
+<p class="intro"><span class="dropcap">T</span>here I was, Fall 2022, sitting in a large lecture hall in the basement of the Utah State business college. Unsure of my life’s path and my career opportunities, I was a hesitant bioengineering major in a random data science class, just trying to make it work—when suddenly my world was changed. Changed by what, you may ask? The beauty of SQL. </p>
 
 
 
-## Introduction:
-To put it simply, SQL (or Structured Query Language)is a programming language used for storing and processing information in a relational database. It’s exceptionally helpful in pulling and processing large amounts of data, even pieces of related data, for your use and interpretation. Lucky for us newbies, it's also easy to learn and immediately use to answer all of our deepest data science questions. 
+### Introduction:
+To put it simply, SQL (or Structured Query Language) is a programming language used for storing and processing information in a relational database. It’s exceptionally helpful in pulling and processing large amounts of data, even pieces of related data, for your use and interpretation. Lucky for us newbies, it's also easy to learn and immediately use to answer all of our deepest data science questions. 
 
 In this post, we’ll start by defining some key elements of SQL and a SQL query (or question about a set of data). We’ll also get you a simple dataset to play with on your own while defining some helpful functions in your data manipulation journey. Let the games begin!
 
+### Set Up:
 
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
 
 <blockquote>Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.</blockquote>
 

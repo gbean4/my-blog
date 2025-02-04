@@ -20,15 +20,6 @@ We'll start by:
 Good Luck!!
 
 ### Definitions:
-| SQL clause | What it does                                                                            | Required                       |
-|----------- |---------------------------------------------------------------------------------------- |------------------------------- |
-| SELECT     | Lists the fields that contain data of interest.                                         | Yes                            |
-| FROM       | Lists the tables that contain the fields listed in the SELECT clause.                   | Yes                            |
-| WHERE      | Specifies field criteria that must be met by each record to be included in the results. | No                             |
-| ORDER BY   | Specifies how to sort the results.                                                      | No                             |
-| GROUP BY   | Lists fields that are not summarized in the SELECT clause.                              | Only if there  are such fields |
-| HAVING     | Specifies conditions that apply to fields that are summarized in the SELECT statement.  | No                             |
-
 <dl>
   <dt>SELECT</dt>
   <dd>Lists the fields that contain data of interest.</dd>
@@ -44,18 +35,6 @@ Good Luck!!
   <dd>In a SQL statement that contains aggregate functions, specifies conditions that apply to fields that are summarized in the SELECT statement.</dd>
 </dl>
 
-## Table
-
-
-
-
-
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
-| Header      | Title       |
-| Paragraph   | Text        |
 
 ## Code Snippet
 

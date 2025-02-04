@@ -2,16 +2,16 @@
 layout: post
 title:  "Unlock the Power of Data: An Easy Introduction to SQL"
 date:   2025-02-04
-description: This post is designed to define basic SQL functions and guide you through your first SQL query as you enter the world of data science. You got it!!! 
+description: This post is designed to help define basic SQL functions and guide you through your first SQL query as you enter the world of data science. You got this!!! 
 
 ---
 
-<p class="intro"><span class="dropcap">T</span>There I was, Fall 2022 in a large lecture hall in the basement of the USU business college. Unsure of my life’s path and my career opportunities, I was a bioengineering major in a random data science class, making it work, when suddenly my world was changed. Changed by what, you may ask? The beauty of SQL. </p>
+<p class="intro"><span class="dropcap">T</span>here I was, Fall 2022, sitting in a large lecture hall in the basement of the Utah State business college. Unsure of my life’s path and my career opportunities, I was a hesitant bioengineering major in a random data science class, just trying to make it work—-when suddenly my world was changed. Changed by what, you may ask? The beauty of SQL. </p>
 
 
 
 ## Introduction:
-To put it simply SQL, or Structured Query Language, is a programming language used for storing and processing information in a relational database. It’s exceptionally helpful in pulling and processing large amounts of data, even pieces of related data, for your use and interpretation. Lucky for us newbies, it is also easy to learn and use to answer all of your deepest data science questions. 
+To put it simply, SQL (or Structured Query Language)is a programming language used for storing and processing information in a relational database. It’s exceptionally helpful in pulling and processing large amounts of data, even pieces of related data, for your use and interpretation. Lucky for us newbies, it's also easy to learn and immediately use to answer all of our deepest data science questions. 
 
 In this post, we’ll start by defining some key elements of SQL and a SQL query (or question about a set of data). We’ll also get you a simple dataset to play with on your own while defining some helpful functions in your data manipulation journey. Let the games begin!
 

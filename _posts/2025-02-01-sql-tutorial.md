@@ -72,7 +72,7 @@ FROM Movies
 {%- endhighlight -%}
 If you run this in your IDE, you will see the following result!
 <figure>
-	<img src="{{site.url}}/{{site.baseurl}}\assets\img\Screenshot 2025-02-04 122432.png" alt=""> 
+	<img src="{{site.url}}/{{site.baseurl}}\assets\img\Screenshot1.jpg" alt=""> 
 </figure>
 
 

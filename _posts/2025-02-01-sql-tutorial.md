@@ -2,7 +2,7 @@
 layout: post
 title:  "Unlock the Power of Data: An Easy Introduction to SQL"
 date:   2025-02-04
-description: This post is designed to help define basic SQL functions and guide you through your first SQL query as you enter the world of data science. You got this!!! 
+description: This post is designed to define basic SQL functions and guide you through your first SQL query as you enter the world of data science.  
 
 ---
 

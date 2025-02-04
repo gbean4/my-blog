@@ -1,21 +1,20 @@
 ---
 layout: post
-title:  "Example Post Formatting"
+title:  "Unlock the Power of Data: An Easy Introduction to SQL"
 date:   2025-02-04
-description: This is a post was provided by the template to show how to format different parts of the blog post in markdown.
+description: This post is designed to define basic SQL functions and guide you through your first SQL query as you enter the world of data science. You got it!!! 
+
 ---
-My favorite department at BYU is the [Statistics Department](https://statistics.byu.edu).
 
-![Figure]({{site.url}}/{{site.baseurl}}gbean4/my-blog/assets/img/Gemini_Generated_Image_f2pek5f2pek5f2pe.jpg)
-
-<img src="{{site.url}}/{{site.baseurl}}/assets/img/Gemini_Generated_Image_f2pek5f2pek5f2pe.jpg" alt="" style="width:300px;"/>
+<p class="intro"><span class="dropcap">T</span>There I was, Fall 2022 in a large lecture hall in the basement of the USU business college. Unsure of my life’s path and my career opportunities, I was a bioengineering major in a random data science class, making it work, when suddenly my world was changed. Changed by what, you may ask? The beauty of SQL. </p>
 
 
-<p class="intro"><span class="dropcap">C</span>urabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.</p>
 
-# Heading 1
+## Introduction:
+To put it simply SQL, or Structured Query Language, is a programming language used for storing and processing information in a relational database. It’s exceptionally helpful in pulling and processing large amounts of data, even pieces of related data, for your use and interpretation. Lucky for us newbies, it is also easy to learn and use to answer all of your deepest data science questions. 
 
-## Heading 2
+In this post, we’ll start by defining some key elements of SQL and a SQL query (or question about a set of data). We’ll also get you a simple dataset to play with on your own while defining some helpful functions in your data manipulation journey. Let the games begin!
+
 
 ### Heading 3
 

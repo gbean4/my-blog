@@ -8,7 +8,6 @@ description: This post is designed to help define basic SQL functions and guide 
 
 <p class="intro"><span class="dropcap">T</span>here I was, Fall 2022, sitting in a large lecture hall in the basement of the Utah State business college. Unsure of my life’s path and my career opportunities, I was a hesitant bioengineering major in a random data science class, just trying to make it work—when suddenly my world was changed. Changed by what, you may ask? The beauty of SQL. </p>
 
-
 ### Introduction:
 To put it simply, SQL (or Structured Query Language) is a programming language used for storing and processing information in a relational database. It’s exceptionally helpful in pulling and processing large amounts of data, even pieces of related data, for your use and interpretation. Lucky for us newbies, it's also easy to learn and immediately use to answer all of our deepest data science questions. 
 
@@ -26,6 +25,7 @@ There are many IDE options for your use! Most are user friendly and will allow y
 * PostgreSQL
 * SQLite
 * or an online SQL sandbox (like DB Fiddle)
+
 Once you have your SQL environment open, paste the following code and run! This code initializes your database and will allow you to practice along with the examples provided. 
 {%- highlight SQL -%}
 CREATE TABLE Movies (
@@ -46,7 +46,8 @@ VALUES
 {%- endhighlight -%}
 
 ### Definitions:
-If the code above confuses you, no worries! I got you. SQL's purpose is for data retrieval, manipulation, and management. This means you'll start all your queries either initializing a database and inserting values or retrieving a database from some other source. 
+If the code above confuses you, no worries! I got you. SQL's purpose is for data retrieval, manipulation, and management. This means you'll start all your queries either initializing a database and inserting values or retrieving a database from some other source. The "CREATE TABLE" function 
+
 <dl>
   <dt>SELECT</dt>
   <dd>Lists the fields that contain data of interest.</dd>
@@ -56,14 +57,10 @@ If the code above confuses you, no worries! I got you. SQL's purpose is for data
   <dd>Specifies field criteria that must be met by each record to be included in the results.</dd>
   <dt>ORDER BY</dt>
   <dd>Specifies how to sort the results.</dd>
-  <dt>GROUP BY</dt>
-  <dd>In a SQL statement that contains aggregate functions, lists fields that are not summarized in the SELECT clause.</dd>
-  <dt>HAVING</dt>
-  <dd>In a SQL statement that contains aggregate functions, specifies conditions that apply to fields that are summarized in the SELECT statement.</dd>
 </dl>
 
 
-##### And Remember:
+#### And Remember:
 
 {%- highlight SQL -%}
 SELECT *

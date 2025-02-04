@@ -13,8 +13,8 @@ description: This post is designed to help define basic SQL functions and guide 
 To put it simply, SQL (or Structured Query Language) is a programming language used for storing and processing information in a relational database. It’s exceptionally helpful in pulling and processing large amounts of data, even pieces of related data, for your use and interpretation. Lucky for us newbies, it's also easy to learn and immediately use to answer all of our deepest data science questions. 
 
 We'll start by:
-* defining key elements of SQL and SQL queries
 * setting up a simple dataset in your IDE of choice
+* defining key elements of SQL and SQL queries
 * practicing helpful SQL fuctionsf for data query
 
 Good Luck!!

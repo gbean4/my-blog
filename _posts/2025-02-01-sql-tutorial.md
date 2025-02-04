@@ -33,16 +33,20 @@ CREATE TABLE Movies (
     ReleaseYear INT,
     Director VARCHAR(100),
     IMDbRating DECIMAL(2,1),
-    BoxOfficeRevenue DECIMAL(15,2)
-); #this function initializes your table (called 'Movies') with keys, or column names. 'MovieID' is considered the PRIMARY KEY (meaning the special name given to each record) because each row will have a unique value.
+    BoxOfficeRevenue DECIMAL(15,2)); 
 
 INSERT INTO Movies (MovieID, Title, Genre, ReleaseYear, Director, IMDbRating, BoxOfficeRevenue)
 VALUES
 (1, 'The Shawshank Redemption', 'Drama', 1994, 'Frank Darabont', 9.3, 28341469),
 (2, 'The Godfather', 'Crime', 1972, 'Francis Ford Coppola', 9.2, 246120974),
-(3, 'The Dark Knight', 'Action', 2008, 'Christopher Nolan', 9.0, 1004558444);
-#this function creates records and inserts them into the 'Movies' table we just created. 
+(3, 'The Dark Knight', 'Action', 2008, 'Christopher Nolan', 9.0, 1004558444); 
 {%- endhighlight -%}
+##### Quick Explanation:
+The first function initializes your table (called 'Movies') with keys, or column names. 'MovieID' is considered the PRIMARY KEY (meaning the special name given to each record) because each row will have a unique value.
+The second function creates records and inserts them into the 'Movies' table we just created.
+
+
+
 
 ### Definitions:
 If the code above confuses you, no worries! I got you. SQL's purpose is for data retrieval, manipulation, and management. This means you'll start all your queries either initializing a database and inserting values or retrieving a database from some other source. The "CREATE TABLE" function 

@@ -21,7 +21,7 @@ Good Luck!!
 
 ### Definitions:
 | SQL clause | What it does                                                                            | Required                       |
-|------------|-----------------------------------------------------------------------------------------|--------------------------------|
+|----------- |---------------------------------------------------------------------------------------- |------------------------------- |
 | SELECT     | Lists the fields that contain data of interest.                                         | Yes                            |
 | FROM       | Lists the tables that contain the fields listed in the SELECT clause.                   | Yes                            |
 | WHERE      | Specifies field criteria that must be met by each record to be included in the results. | No                             |

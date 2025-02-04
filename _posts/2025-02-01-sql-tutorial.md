@@ -14,7 +14,7 @@ To put it simply, SQL (or Structured Query Language) is a programming language u
 We'll start by:
 * setting up a simple dataset in your IDE of choice
 * defining key elements of SQL and SQL queries
-* practicing helpful SQL fuctions for data query
+* practicing helpful SQL fuctions for data analysis
 
 ### Set Up:
 There are many IDE options for your use! Most are user friendly and will allow you to query what you need. Some options include:

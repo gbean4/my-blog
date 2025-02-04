@@ -15,11 +15,38 @@ To put it simply, SQL (or Structured Query Language) is a programming language u
 We'll start by:
 * setting up a simple dataset in your IDE of choice
 * defining key elements of SQL and SQL queries
-* practicing helpful SQL fuctionsf for data query
+* practicing helpful SQL fuctions for data query
 
 Good Luck!!
 
+### Set Up:
+There are many IDE options for your use! Most are user friendly and will allow you to query what is needed. Some options include:
+* MySQL
+* DBeaver
+* PostgreSQL
+* SQLite
+* or an online SQL sandbox (like DB Fiddle)
+Once you have your SQL environment open, paste the following code and run! This code initializes your database and will allow you to practice along with the examples provided. 
+{%- highlight SQL -%}
+CREATE TABLE Movies (
+    MovieID INT PRIMARY KEY,
+    Title VARCHAR(100),
+    Genre VARCHAR(50),
+    ReleaseYear INT,
+    Director VARCHAR(100),
+    IMDbRating DECIMAL(2,1),
+    BoxOfficeRevenue DECIMAL(15,2)
+);
+
+INSERT INTO Movies (MovieID, Title, Genre, ReleaseYear, Director, IMDbRating, BoxOfficeRevenue)
+VALUES
+(1, 'The Shawshank Redemption', 'Drama', 1994, 'Frank Darabont', 9.3, 28341469),
+(2, 'The Godfather', 'Crime', 1972, 'Francis Ford Coppola', 9.2, 246120974),
+(3, 'The Dark Knight', 'Action', 2008, 'Christopher Nolan', 9.0, 1004558444);
+{%- endhighlight -%}
+
 ### Definitions:
+If the code above confuses you, no worries! I got you. SQL's purpose is for data retrieval, manipulation, and management. This means you'll start all your queries either initializing a database and inserting values or retrieving a database from some other source. 
 <dl>
   <dt>SELECT</dt>
   <dd>Lists the fields that contain data of interest.</dd>
@@ -36,7 +63,7 @@ Good Luck!!
 </dl>
 
 
-## Code Snippet
+##### And Remember:
 
 {%- highlight SQL -%}
 SELECT *
@@ -46,20 +73,3 @@ LIKE "%You%"
 ...
 />no results
 {%- endhighlight -%}
-
-
-## Figure with Caption
-
-<figure>
-	<img src="{{site.url}}/{{site.baseurl}}/assets/img/touring.jpg" alt=""> 
-	<figcaption>Figure 1. - This is an example figcaption</figcaption>
-</figure>
-
-
-{%- highlight html -%}
-<figure>
-	{% raw %}<img src="{{site.url}}/{{site.baseurl}}/assets/img/touring.jpg" alt="">{% endraw %}
-	<figcaption>Figure 1. - This is an example figcaption</figcaption>
-</figure>
-{%- endhighlight -%}
-

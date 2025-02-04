@@ -20,22 +20,19 @@ We'll start by:
 Good Luck!!
 
 ### Definitions:
-| SQL clause | What it does                                                                                                                                 | Required                       |
-|------------|----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
-| SELECT     | Lists the fields that contain data of interest.                                                                                              | Yes                            |
-| FROM       | Lists the tables that contain the fields listed in the SELECT clause.                                                                        | Yes                            |
-| WHERE      | Specifies field criteria that must be met by each record to be included in the results.                                                      | No                             |
-| ORDER BY   | Specifies how to sort the results.                                                                                                           | No                             |
-| GROUP BY   | In a SQL statement that contains aggregate functions, lists fields that are not summarized in the SELECT clause.                             | Only if there  are such fields |
-| HAVING     | In a SQL statement that contains aggregate functions, specifies conditions that apply to fields that are summarized in the SELECT statement. | No                             |
-
-
-## Definition List
 <dl>
-  <dt>Coffee</dt>
-  <dd>Black hot drink</dd>
-  <dt>Milk</dt>
-  <dd>White cold drink</dd>
+  <dt>SELECT</dt>
+  <dd>Lists the fields that contain data of interest.</dd>
+  <dt>FROM</dt>
+  <dd>Lists the tables that contain the fields listed in the SELECT clause.</dd>
+  <dt>WHERE</dt>
+  <dd>Specifies field criteria that must be met by each record to be included in the results.</dd>
+  <dt>ORDER BY</dt>
+  <dd>Specifies how to sort the results.</dd>
+  <dt>GROUP BY</dt>
+  <dd>In a SQL statement that contains aggregate functions, lists fields that are not summarized in the SELECT clause.</dd>
+  <dt>HAVING</dt>
+  <dd>In a SQL statement that contains aggregate functions, specifies conditions that apply to fields that are summarized in the SELECT statement.</dd>
 </dl>
 
 ## Table

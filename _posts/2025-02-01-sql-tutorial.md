@@ -20,13 +20,14 @@ We'll start by:
 Good Luck!!
 
 ### Definitions:
-| SQL clause     | What it does | Required|
-| ----------- | ----------- |
-| Query       | Question about a set of data | Yes|
-| SELECT      | Lists the fields that contain data of interest.        | Yes |
-| FROM        | Lists the tables that contain the fields listed in the SELECT clause. | No |
-| WHERE       | Specifies field criteria that must be met by each record to be included in the results. | No |
-| ORDER BY	| 	Specifies how to sort the results. | No |
+| SQL clause | What it does                                                                                                                                 | Required                       |
+|------------|----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
+| SELECT     | Lists the fields that contain data of interest.                                                                                              | Yes                            |
+| FROM       | Lists the tables that contain the fields listed in the SELECT clause.                                                                        | Yes                            |
+| WHERE      | Specifies field criteria that must be met by each record to be included in the results.                                                      | No                             |
+| ORDER BY   | Specifies how to sort the results.                                                                                                           | No                             |
+| GROUP BY   | In a SQL statement that contains aggregate functions, lists fields that are not summarized in the SELECT clause.                             | Only if there  are such fields |
+| HAVING     | In a SQL statement that contains aggregate functions, specifies conditions that apply to fields that are summarized in the SELECT statement. | No                             |
 
 
 ## Definition List

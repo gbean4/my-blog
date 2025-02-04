@@ -54,11 +54,11 @@ Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus e
 
 ## Code Snippet
 
-{%- highlight python -%}
-def print_hi(name):
-  print("Hi" + name)
-print_hi('Tom')
-#=> prints 'Hi, Tom'.
+{%- highlight SQL -%}
+SELECT *
+FROM World
+WHERE "Someone"
+LIKE "%You%"
 {%- endhighlight -%}
 
 

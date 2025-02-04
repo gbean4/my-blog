@@ -41,25 +41,28 @@ VALUES
 (2, 'The Godfather', 'Crime', 1972, 'Francis Ford Coppola', 9.2, 246120974),
 (3, 'The Dark Knight', 'Action', 2008, 'Christopher Nolan', 9.0, 1004558444); 
 {%- endhighlight -%}
-##### Quick Explanation:
-The first function initializes your table (called 'Movies') with keys, or column names. 'MovieID' is considered the PRIMARY KEY (meaning the special name given to each record) because each row will have a unique value.
-The second function creates records and inserts them into the 'Movies' table we just created.
 
-
-
+##### Code Explanation:
+If the code above confuses you, no worries! I got you. SQL's purpose is for data retrieval, manipulation, and management. This means you'll start all your queries either initializing a database and inserting values or retrieving a database from some other source. The “CREATE TABLE” functioninitializes your table (called 'Movies') with keys, or column names. 'MovieID' is considered the PRIMARY KEY (meaning the special name given to each record) because each row will have a unique value.
+The second function (starting with INSERT INTO)creates records and inserts them into the 'Movies' table we just created.
 
 ### Definitions:
-If the code above confuses you, no worries! I got you. SQL's purpose is for data retrieval, manipulation, and management. This means you'll start all your queries either initializing a database and inserting values or retrieving a database from some other source. The "CREATE TABLE" function 
+Okay! Now that your datatable is set up and your IDE is running, we can start to query the data. Each SQL query has a few elements we want to keep in mind. The only two required elements are SELECT and FROM, as without these, your code won't know what to grab and from where (respectively).  
 
 <dl>
-  <dt>SELECT</dt>
-  <dd>Lists the fields that contain data of interest.</dd>
-  <dt>FROM</dt>
+  <dt>SELECT (Required)</dt>
+  <dd>Lists the fields that contain data of interest
+  </dd>
+  <dt>FROM (Required)</dt>
   <dd>Lists the tables that contain the fields listed in the SELECT clause.</dd>
   <dt>WHERE</dt>
   <dd>Specifies field criteria that must be met by each record to be included in the results.</dd>
   <dt>ORDER BY</dt>
   <dd>Specifies how to sort the results.</dd>
+  <dt>GROUP BY</dt>
+  <dd> Lists fields that are not summarized in the SELECT clause.</dd>
+  <dt>HAVING</dt>
+  <dd>Specifies conditions that apply to fields that are summarized in the SELECT statement.</dd>
 </dl>
 
 
@@ -73,3 +76,4 @@ LIKE "%You%"
 ...
 />no results
 {%- endhighlight -%}
+##### Meaning: when querying the world, there's only 1 result like you ;)

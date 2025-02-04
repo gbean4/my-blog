@@ -72,8 +72,7 @@ FROM Movies
 {%- endhighlight -%}
 If you run this in your IDE, you will see the following result!
 <figure>
-	<img src="{{site.url}}/{{site.baseurl}}/assets/img/touring.jpg" alt=""> 
-	<figcaption>Figure 1. - This is an example figcaption</figcaption>
+	<img src="{{site.url}}/{{site.baseurl}}\assets\img\Screenshot 2025-02-04 122432.png" alt=""> 
 </figure>
 
 

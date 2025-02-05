@@ -70,9 +70,9 @@ For example, if you wanted to query all your data to view in one table, you coul
 SELECT *
 FROM Movies; #all SQL queries end with ';'
 {%- endhighlight -%}
-If you run this in your IDE, you will see the following result!
+If you run this in your IDE, you will see the following result:
 
-<img src="{{site.url}}/{{site.baseurl}}\Users\gabri\Downloads\Screenshot2.jpg" alt="" style="width:300px;"/>
+<img src="{{site.url}}/{{site.baseurl}}\Users\gabri\Downloads\Screenshot2.jpg" alt="welp" style="width:300px;"/>
 
 Yay! This is great. 
 

@@ -72,7 +72,7 @@ FROM Movies; #all SQL queries end with ';'
 {%- endhighlight -%}
 If you run this in your IDE, you will see the following result:
 
-<img src="{{site.url}}/{{site.baseurl}}/assets/img/Screenshot2.jpg" alt="welppp" style="width:300px;"/>
+<img src="{{site.url}}/{{site.baseurl}}/assets/img/Screenshot2.jpg" alt="welppp"/>
 
 Yay! This is great. 
 

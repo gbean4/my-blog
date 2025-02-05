@@ -84,7 +84,7 @@ FROM Movies; #all SQL queries end with ';'
 {%- endhighlight -%}
 If you run this in your IDE, you will see the something like this:
 
-<img src="{{site.url}}/{{site.baseurl}}/assets/img/Screenshot2.jpg" alt="welppp"/>
+<img src="{{site.url}}/{{site.baseurl}}/assets/img/Screenshot3.jpg" alt="welppp"/>
 
 Yay! This is great. Your SQL environment is running as it should and your database is ready. 
 

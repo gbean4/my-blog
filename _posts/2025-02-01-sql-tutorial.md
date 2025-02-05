@@ -104,6 +104,15 @@ ORDER BY BoxOfficeRevenue ASC;
 <figcaption>Using WHERE and ORDER BY allows us to select specific records based on a condition and organize them by our chosen parameter. As a bonus, the ASC indicates we want ascending order, least to greatest!</figcaption>
 </figure>
 
+Alright, you're an expert. What if we want to find some aggregated values, such as a SUM, MEAN, or MAX? These aggregated functions are performed in the SELECT clause and can even be renamed according to the aggregation they represent. This is where GROUP BY and HAVING come into play. GROUP BY allows us to group our data based on the keys not used in the SELECT aggregation functions, while HAVING basically acts as a WHERE clause for fields in GROUP BY. 
+
+For example, 
+{%- highlight SQL -%}
+SELECT Genre, SUM(BoxOfficeRevenue) AS TotalRevenue 
+FROM Movies
+GROUP BY Genre
+HAVING IMDbRating > 8;
+{%- endhighlight -%}
 
 
 

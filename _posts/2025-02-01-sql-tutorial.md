@@ -124,7 +124,9 @@ Although SQL is simple for coders experienced in other languages, it is essentia
 Now that you've been introduced to SQL and have had some practice, keep playing with your data, add more records, or create your own tables! If you are interested in learning more advanced functions, prioritizing your results, or using fragmanted datatables pieced together, look to the links below! 
 
 <a href="https://www.geeksforgeeks.org/sql-advanced-functions/" target="_blank">Advanced Functions</a>
+
 <a href="https://www.geeksforgeeks.org/rank-function-in-sql-server/" target="_blank">RANK() Function in SQL Server</a>
+
 <a href="https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/" target="_blank">SQL Joins (Inner, Left, Right and Full Join)</a>
 
 Happy coding!

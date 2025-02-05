@@ -106,7 +106,7 @@ ORDER BY BoxOfficeRevenue ASC;
 
 Alright, you're an expert. What if we want to find some aggregated values, such as a SUM, MEAN, or MAX? These aggregated functions are performed in the SELECT clause and can even be renamed according to the aggregation they represent. This is where GROUP BY and HAVING come into play. GROUP BY allows us to group our data based on the keys not used in the SELECT aggregation functions, while HAVING basically acts as a WHERE clause for fields in GROUP BY. 
 
-For example, 
+The code below uses both GROUP BY and HAVING in querying the data. Look over the code and see if you can guess the shape and set up of the resulting table. 
 {%- highlight SQL -%}
 SELECT Genre, SUM(BoxOfficeRevenue) AS TotalRevenue 
 FROM Movies
@@ -118,17 +118,16 @@ HAVING IMDbRating > 8;
 <figcaption>The above code sums up revenues based on the genre, as well as only showing records with a rating above 8/10. How cool!!</figcaption>
 </figure>
 
+### Conclusion
+Although SQL is simple for coders experienced in other languages, it is essential for working with structured data stored in relational databases, as we experimented with earlier. As you progress in your data science journey, look to SQL for data access and retrieval as you filter and manipulate your data. Further learning will teach you how to clean and preprocess unprepared data while being able to handle millions of records efficiently. As a final note, it's also very very fun. 
 
+Now that you've been introduced to SQL and have had some practice, keep playing with your data, add more records, or create your own tables! If you are interested in learning more advanced functions, prioritizing your results, or using fragmanted datatables pieced together, look to the links below! 
 
+<a href="https://www.geeksforgeeks.org/sql-advanced-functions/" target="_blank">Advanced Functions</a>
+<a href="https://www.geeksforgeeks.org/rank-function-in-sql-server/" target="_blank">RANK() Function in SQL Server</a>
+<a href="https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/" target="_blank">SQL Joins (Inner, Left, Right and Full Join)</a>
 
-
-
-
-
-
-
-
-
+Happy coding!
 
 #### And Remember:
 {%- highlight SQL -%}

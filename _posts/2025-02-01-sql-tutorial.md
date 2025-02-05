@@ -39,7 +39,7 @@ INSERT INTO Movies (MovieID, Title, Genre, ReleaseYear, Director, IMDbRating, Bo
 VALUES
 (1, 'The Shawshank Redemption', 'Drama', 1994, 'Frank Darabont', 9.3, 28341469),
 (2, 'The Godfather', 'Crime', 1972, 'Francis Ford Coppola', 9.2, 246120974),
-(3, 'The Dark Knight', 'Action', 2008, 'Christopher Nolan', 9.0, 1004558444)
+(3, 'The Dark Knight', 'Action', 2008, 'Christopher Nolan', 9.0, 1004558444),
 (4, 'Pulp Fiction', 'Crime', 1994, 'Quentin Tarantino', 8.9, 213928762),
 (5, 'Forrest Gump', 'Drama', 1994, 'Robert Zemeckis', 8.8, 678226466),
 (6, 'Inception', 'Sci-Fi', 2010, 'Christopher Nolan', 8.8, 836848102),

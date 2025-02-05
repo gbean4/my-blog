@@ -113,6 +113,12 @@ FROM Movies
 GROUP BY Genre
 HAVING IMDbRating > 8;
 {%- endhighlight -%}
+<figure>
+<img src="{{site.url}}/{{site.baseurl}}/assets/img/Screenshot5.jpg" alt="welppp"/>
+<figcaption>The above code sums up revenues based on the genre, as well as only showing records with a rating above 8/10. How cool!!</figcaption>
+</figure>
+
+
 
 
 

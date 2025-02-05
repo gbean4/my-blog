@@ -101,7 +101,7 @@ ORDER BY BoxOfficeRevenue ASC;
 {%- endhighlight -%}
 <figure>
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/Screenshot4.jpg" alt="welppp"/>
-<figcaption>Using WHERE and ORDER BY allows uss to select specific records based on a condition and organize them by our chosen parameter.</figcaption>
+<figcaption>Using WHERE and ORDER BY allows us to select specific records based on a condition and organize them by our chosen parameter. As a bonus, the ASC indicates we want ascending order, least to greatest!</figcaption>
 </figure>
 
 

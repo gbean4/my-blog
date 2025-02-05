@@ -39,7 +39,19 @@ INSERT INTO Movies (MovieID, Title, Genre, ReleaseYear, Director, IMDbRating, Bo
 VALUES
 (1, 'The Shawshank Redemption', 'Drama', 1994, 'Frank Darabont', 9.3, 28341469),
 (2, 'The Godfather', 'Crime', 1972, 'Francis Ford Coppola', 9.2, 246120974),
-(3, 'The Dark Knight', 'Action', 2008, 'Christopher Nolan', 9.0, 1004558444); 
+(3, 'The Dark Knight', 'Action', 2008, 'Christopher Nolan', 9.0, 1004558444)
+(4, 'Pulp Fiction', 'Crime', 1994, 'Quentin Tarantino', 8.9, 213928762),
+(5, 'Forrest Gump', 'Drama', 1994, 'Robert Zemeckis', 8.8, 678226466),
+(6, 'Inception', 'Sci-Fi', 2010, 'Christopher Nolan', 8.8, 836848102),
+(7, 'The Matrix', 'Sci-Fi', 1999, 'Lana Wachowski, Lilly Wachowski', 8.7, 467222728),
+(8, 'The Lord of the Rings: The Return of the King', 'Fantasy', 2003, 'Peter Jackson', 9.0, 1146030912),
+(9, 'Interstellar', 'Sci-Fi', 2014, 'Christopher Nolan', 8.7, 773439417),
+(10, 'Gladiator', 'Action', 2000, 'Ridley Scott', 8.5, 460583960),
+(11, 'The Lion King', 'Animation', 1994, 'Roger Allers, Rob Minkoff', 8.5, 968511805),
+(12, 'Titanic', 'Romance', 1997, 'James Cameron', 7.9, 2264550681),
+(13, 'Saving Private Ryan', 'War', 1998, 'Steven Spielberg', 8.6, 482349603),
+(14, 'The Silence of the Lambs', 'Thriller', 1991, 'Jonathan Demme', 8.6, 272742922),
+(15, 'Avatar', 'Sci-Fi', 2009, 'James Cameron', 7.9, 2924000000);
 {%- endhighlight -%}
 
 ##### Code Explanation:
@@ -70,11 +82,11 @@ For example, if you wanted to query all your data to view in one table, you coul
 SELECT *
 FROM Movies; #all SQL queries end with ';'
 {%- endhighlight -%}
-If you run this in your IDE, you will see the following result:
+If you run this in your IDE, you will see the something like this:
 
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/Screenshot2.jpg" alt="welppp"/>
 
-Yay! This is great. 
+Yay! This is great. Your SQL environment is running as it should and your database is ready. 
 
 
 

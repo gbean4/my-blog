@@ -65,14 +65,14 @@ Okay! Now that your datatable is set up and your IDE is running, we can start to
   <dd>Specifies conditions that apply to fields that are summarized in the SELECT statement.</dd>
 </dl>
 
-For example, if you wanted to query all your data view in one table, you could use the following code:
+For example, if you wanted to query all your data to view in one table, you could use the following code:
 {%- highlight SQL -%}
 SELECT *
-FROM Movies
+FROM Movies; #all SQL queries end with ';'
 {%- endhighlight -%}
 If you run this in your IDE, you will see the following result!
 
-<img src="{{site.url}}/{{site.baseurl}}/assets/img/Screenshot2.jpg" alt="" style="width:300px;"/>
+<img src="{{site.url}}/{{site.baseurl}}\Users\gabri\Downloads\Screenshot2.jpg" alt="" style="width:300px;"/>
 
 Yay! This is great. 
 

@@ -86,7 +86,6 @@ If you run this in your IDE, you will see the something like this:
 
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/Screenshot3.jpg" alt="welppp"/>
 
-
 ### Practice
 Yay! This is great. Your SQL environment is running as it should and your database is ready for further queries. 
 
@@ -100,7 +99,7 @@ FROM Movies
 WHERE Genre = "Sci-Fi"
 ORDER BY BoxOfficeRevenue ASC;
 {%- endhighlight -%}
-
+<img src="{{site.url}}/{{site.baseurl}}/assets/img/Screenshot4.jpg" alt="welppp"/>
 
 
 

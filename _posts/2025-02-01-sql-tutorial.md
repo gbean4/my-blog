@@ -86,7 +86,22 @@ If you run this in your IDE, you will see the something like this:
 
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/Screenshot3.jpg" alt="welppp"/>
 
-Yay! This is great. Your SQL environment is running as it should and your database is ready. 
+
+### Practice
+Yay! This is great. Your SQL environment is running as it should and your database is ready for further queries. 
+
+An important part of SQL programming is asking the right questions. With all that data, it pays to know what you're looking for and what patterns you're trying to observe. 
+
+Let's say you want to see all records categorized as "Sci-Fi" in the column "Genre". Let's also say you want to organize it by "BoxOfficeRevenue" from least to greatest revenues because you only watch indie films. We can do that! (Look back at the definitions if you need a hint.)
+
+{%- highlight SQL -%}
+SELECT *
+FROM Movies 
+WHERE Genre = "Sci-Fi"
+ORDER BY BoxOfficeRevenue ASC;
+{%- endhighlight -%}
+
+
 
 
 
@@ -106,4 +121,4 @@ LIKE "%You%";
 ...
 />no results
 {%- endhighlight -%}
-Meaning: when querying the world, there's only 1 result like you ;)
+Meaning: when querying the World, there's only 1 result like you ;)

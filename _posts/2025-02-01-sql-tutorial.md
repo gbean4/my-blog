@@ -9,7 +9,7 @@ description: This post is designed to define basic SQL functions and guide you t
 <p class="intro"><span class="dropcap">T</span>here I was, Fall 2022, sitting in a large lecture hall in the basement of the Utah State business college. Unsure of my life’s path and my career opportunities, I was a hesitant bioengineering major in a random data science class, just trying to make it work—when suddenly my world was changed. Changed by what, you may ask? The beauty of SQL. </p>
 
 ### Introduction:
-To put it simply, SQL (or Structured Query Language) is a programming language used for storing and processing information in a relational database. It’s exceptionally helpful in pulling and processing large amounts of data, even pieces of related data, for your use and interpretation. Luckily for us, it's also easy to learn and immediately use to answer all of our deepest data science questions. 
+To put it simply, SQL (or Structured Query Language) is a programming language used for storing and processing information in a relational database. It’s exceptionally helpful in pulling and processing large amounts of data, even pieces of related data, for your use and interpretation. Luckily for us, it's easy to learn and use to answer all of our deepest data science questions. 
 
 We'll start by:
 * setting up a simple dataset in your IDE of choice
@@ -17,17 +17,18 @@ We'll start by:
 * practicing helpful SQL fuctions for data analysis
 
 ### Set Up:
-There are many IDE options for your use! Most are user friendly and will allow you to query what you need. Some options include:
+There are many IDE options for your use! Most are user friendly and allows you to query what you need. Some options include:
 * MySQL
-* DBeaver (this is the IDE I use)
+* DBeaver (We will use this IDE in the code below)
 * PostgreSQL
 * SQLite
 * or an online SQL sandbox (like DB Fiddle)
 
-If you're new to setting up IDE's and coding environments, use this video for step by step support! 
+If you're new to setting up IDE's and coding environments, use this video for step by step support!
+
 <a href="https://www.youtube.com/watch?v=FWPMtHEYdFA" target="_blank">DBeaver: Setting up an Easy-to-Use SQL Editor for Data Management</a>
 
-Once you have your SQL environment open, paste the following code and run! This code initializes your database and will allow you to practice along with the examples as we go along. 
+Once you have your SQL environment open, paste the following code and run! This code initializes your database and will allow you to practice with the examples as we go along. 
 {%- highlight SQL -%}
 CREATE TABLE Movies (
     MovieID INT PRIMARY KEY,
@@ -58,7 +59,7 @@ VALUES
 {%- endhighlight -%}
 
 ##### Code Explanation:
-If the code above confuses you, no worries! I got you. SQL's purpose is for data retrieval, manipulation, and management. This means you'll start all your queries either initializing a database and inserting values or retrieving a database from some other source. The CREATE TABLE function initializes your table (called 'Movies') with keys, or column names. 'MovieID' is considered the PRIMARY KEY (meaning the special name given to each record) because each row will have a unique value.
+If the code above confuses you, no worries! I got you. SQL's purpose is data retrieval, manipulation, and management. This means you'll start all your queries either initializing a database and inserting values or retrieving a database from some other source. The CREATE TABLE function initializes your table (called 'Movies') with keys, or column names. 'MovieID' is considered the PRIMARY KEY (meaning the special name given to each record) because each row will have a unique value.
 The second function (starting with INSERT INTO) creates records and inserts them into the 'Movies' table we just created.
 
 ### Definitions:

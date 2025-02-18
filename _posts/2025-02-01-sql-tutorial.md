@@ -19,7 +19,7 @@ We'll start by:
 ### Set Up:
 There are many IDE options for your use! Most are user friendly and allows you to query what you need. Some options include:
 * MySQL
-* DBeaver (We will use this IDE in the code below)
+* DBeaver (I use this IDE in the code below)
 * PostgreSQL
 * SQLite
 * or an online SQL sandbox (like DB Fiddle)

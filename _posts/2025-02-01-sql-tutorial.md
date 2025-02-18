@@ -19,10 +19,13 @@ We'll start by:
 ### Set Up:
 There are many IDE options for your use! Most are user friendly and will allow you to query what you need. Some options include:
 * MySQL
-* DBeaver
+* DBeaver (this is the IDE I use)
 * PostgreSQL
 * SQLite
 * or an online SQL sandbox (like DB Fiddle)
+
+If you're new to setting up IDE's and coding environments, use this video for step by step support! 
+<a href="https://www.youtube.com/watch?v=FWPMtHEYdFA" target="_blank">DBeaver: Setting up an Easy-to-Use SQL Editor for Data Management</a>
 
 Once you have your SQL environment open, paste the following code and run! This code initializes your database and will allow you to practice along with the examples as we go along. 
 {%- highlight SQL -%}

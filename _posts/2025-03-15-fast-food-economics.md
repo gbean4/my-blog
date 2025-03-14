@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Data Curation: Fast Food and Economics?"
-date:   2025-03-14
-description: This post is designed to define basic SQL functions and guide you through your first SQL query as you enter the world of data science.  
+title:  "Data Curation: The Economics of Fast Food Prices"
+date: 2025-03-14
+description: This post is designed to showcase data collected analyzing the correlation between various state economic factors and fast food prices. Is your happy meal overpriced? Let's find out.   
 
 ---
 

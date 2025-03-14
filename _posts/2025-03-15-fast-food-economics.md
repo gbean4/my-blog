@@ -2,7 +2,7 @@
 layout: post
 title:  "Data Curation: The Economics of Fast Food Prices"
 date: 2025-03-14
-description: Is your happy meal overpriced? Let's find out. Read about the correlation between various state economic factors and fast food prices-- and how you can curate similar data yourself! 
+description: Is your 'Happy Meal' overpriced? Let's find out. Read about the correlation between various state economic factors and fast food prices-- and how you can curate similar data yourself! 
 
 ---
 

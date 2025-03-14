@@ -13,11 +13,11 @@ All jokes aside, though, there's a lot of value—for the average consumer as we
 ### Motivating Question:
 In all good data analysis and curation, there starts an in-depth and answerable question. A well-crafted question guides the analysis and defines the bounds of your research. The question I asked myself was this:
 
-##### How do state-level minimum wage, cost of living, median household income, and other factors impact the average price of a standard fast food meal across the U.S.?
+#### How do state-level minimum wage, cost of living, median household income, and other factors impact the average price of a standard fast food meal across the U.S.?
 
 As you will see later in the data, each state has its own economic needs and capabilities, and their effects are seen in the fluctuating prices of chain restaurants. It's a concern with many elements, and (as we love to hear) best broken down through data analysis. As we go along, feel free to ponder how you might personalize this curation or apply it to your own sciency questions.
 
-### Set Up:
+### Ethical Considerations and Data Collection Methods:
 There are many IDE options for your use! Most are user friendly and allows you to query what you need. Some options include:
 * MySQL
 * DBeaver (I use this IDE in the code below)

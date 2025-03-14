@@ -5,7 +5,7 @@ date: 2025-03-14
 description: Is your 'Happy Meal' overpriced? Let's find out. Read about the correlation between various state economic factors and fast food prices in the US-- and how you can curate similar data yourself! 
 
 ---
-<p class="intro"><span class="dropcap">D</span>o you ever look at the rising cost of your Taco Bell Combo, harness your inner-grumpy-old-man and wonder aloud, "Why is this so expensive? Back in my day, it was $0.75. No? Yeah, me neither. However, it is an interesting question to ask: how are our favorite fast food items priced and why do they change? Although there's probably an in-depth socio-economic answer, we can look at the recent economic data and food prices to better understand what might factor into those McPrices. 
+<p class="intro"><span class="dropcap">D</span>o you ever look at the rising cost of your Taco Bell Combo, harness your inner grumpy-old-man and wonder aloud, "Why is this so expensive? Back in my day, it was only $0.75. No? Yeah, me neither. However, it is an interesting question to ask: how are our favorite fast food items priced and why do they change? Although there's probably an in-depth socio-economic answer, we can look at the recent economic data across each state and the respective food prices to better understand what might factor into those McCosts.
  </p>
 
 <p class="intro"><span class="dropcap">T</span>here I was, Fall 2022, sitting in a large lecture hall in the basement of the Utah State business college. Unsure of my life’s path and my career opportunities, I was a hesitant bioengineering major in a random data science class, just trying to make it work—when suddenly my world was changed. Changed by what, you may ask? The beauty of SQL. </p>

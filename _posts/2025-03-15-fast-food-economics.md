@@ -29,21 +29,30 @@ After you have your data science question and are adhering to local data scrapin
 
 (Note: There are other methods, but these are the simplest and more our pace.)
 
-Also, be sure that your data has a common column or factor, such as 'state', to ensure the final dataset can merge using a similar index. You'll thank me later. After collecting my datasets, I merged them into one to better observe correlations. Feel free to have fun with it, just make sure your dataset is clean and labeled so you don't get lost in the sauce. 
+Also, be sure that your data has a common column or factor, such as 'state', to ensure the final dataset can merge using a similar index. You'll thank me later. After collecting my datasets, I merged them into one to better observe correlations. Feel free to have fun with it, just make sure your dataset is clean and labeled so you don't get lost in the sauce. Here is my merging code in case you need to compare. 
 
-<!-- {%- highlight Python -%}
-#Minimum Wage data
-#csv to dataframe
-minwagedf = pd.read_csv('minimum-wage-2024-by-state3.csv')
-minwagedf = minwagedf.sort_values(by='state').reset_index(drop=True)
-{%- endhighlight -%} -->
+{%- highlight Python -%}
+#combine all df into one on state
+combined_df = medavgdf.merge(livingcostdf, on='state', how='outer') \
+                      .merge(minwagedf, on='state', how='outer') \
+                      .merge(gdpdf, on='state', how='outer') \
+                      .merge(gdpgrowthdf, on='state', how='outer') \
+                      .merge(unemploymentdf, on='state', how='outer') \
+                      .merge(fastfooddf, on='state', how='outer')
 
-##### Code Explanation:
-If the code above confuses you, no worries! I got you. SQL's purpose is data retrieval, manipulation, and management. This means you'll start all your queries either initializing a database and inserting values or retrieving a database from some other source. The CREATE TABLE function initializes your table (called 'Movies') with keys, or column names. 'MovieID' is considered the PRIMARY KEY (meaning the special name given to each record) because each row will have a unique value.
-The second function (starting with INSERT INTO) creates records and inserts them into the 'Movies' table we just created.
+combined_df = combined_df[combined_df['state'] != "District of Columbia"].rename(columns={"Average": "AverageIncome", "Median": "MedianIncome"})
+combined_df = combined_df.sort_values(by='state').reset_index(drop=True)
+combined_df.to_csv('fast_food_analysis.csv', index=False)
+combined_df
+{%- endhighlight -%}
 
-### Definitions:
+### EDA Highlights:
 Okay! Now that your datatable is set up and your IDE is running, we can start to query the data. Each SQL query has a few elements we want to keep in mind. The only two required elements are SELECT and FROM, as without these, your code won't know what to grab and from where (respectively).  
+
+
+#### Interesting Findings
+
+### 
 
 <dl>
   <dt>SELECT (Required)</dt>

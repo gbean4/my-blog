@@ -13,7 +13,7 @@ All jokes aside, though, there's a lot of value—for the average consumer as we
 ### Motivating Question:
 In all good data analysis and curation, there starts an in-depth and answerable question. A well-crafted question guides the analysis and defines the bounds of your research. The question I asked myself was this:
 
-#### How do state-level minimum wage, cost of living, median household income, and other factors impact the average price of a standard fast food meal across the U.S.?
+##### How do state-level minimum wage, cost of living, median household income, and other factors impact the average price of a standard fast food meal across the U.S.?
 
 As you will see later in the data, each state has its own economic needs and capabilities, and their effects are seen in the fluctuating prices of chain restaurants. It's a concern with many elements, and (as we love to hear) best broken down through data analysis. As we go along, feel free to ponder how you might personalize this curation or apply it to your own sciency questions.
 
@@ -21,38 +21,22 @@ As you will see later in the data, each state has its own economic needs and cap
 Before we go any further, it should be said that ethically gathered information is essential! In my analysis, I used public datasets found on an online database (<a href="https://worldpopulationreview.com/" target="_blank">DBeaver: World Population Review</a>) and on a financial services company's compiled data from the Forbes and the U.S. Census Bureau (<a href="https://www.sofi.com/learn/content/average-salary-in-us/" target="_blank">Average US Salary by State</a>). I collected the latter dataset through web scraping while adhering to website policies.
 
 ### Getting Started with Your Data:
+After you have your data science question and are adhering to local data scraping policies and laws, you're ready to compile your data. You can do so using the following techniques:
 
+* Public datasets (I used these)
+* API's
+* Web scraping (these too)
 
+(Note: There are other ways, but these are the simplest and more our pace.)
 
+Also be sure that your data has a common column or factor, such as 'state', to ensure the final dataset can merge using a similar index. You'll thank me later. After collecting my datasets, I merged them into one to better observe correlation. Feel free to have fun with it, just be sure your dataset is clean and labeled so you don't get lost in the sauce. 
 
-{%- highlight SQL -%}
-CREATE TABLE Movies (
-    MovieID INT PRIMARY KEY,
-    Title VARCHAR(100),
-    Genre VARCHAR(50),
-    ReleaseYear INT,
-    Director VARCHAR(100),
-    IMDbRating DECIMAL(2,1),
-    BoxOfficeRevenue DECIMAL(15,2)); 
-
-INSERT INTO Movies (MovieID, Title, Genre, ReleaseYear, Director, IMDbRating, BoxOfficeRevenue)
-VALUES
-(1, 'The Shawshank Redemption', 'Drama', 1994, 'Frank Darabont', 9.3, 28341469),
-(2, 'The Godfather', 'Crime', 1972, 'Francis Ford Coppola', 9.2, 246120974),
-(3, 'The Dark Knight', 'Action', 2008, 'Christopher Nolan', 9.0, 1004558444),
-(4, 'Pulp Fiction', 'Crime', 1994, 'Quentin Tarantino', 8.9, 213928762),
-(5, 'Forrest Gump', 'Drama', 1994, 'Robert Zemeckis', 8.8, 678226466),
-(6, 'Inception', 'Sci-Fi', 2010, 'Christopher Nolan', 8.8, 836848102),
-(7, 'The Matrix', 'Sci-Fi', 1999, 'Lana Wachowski, Lilly Wachowski', 8.7, 467222728),
-(8, 'The Lord of the Rings: The Return of the King', 'Fantasy', 2003, 'Peter Jackson', 9.0, 1146030912),
-(9, 'Interstellar', 'Sci-Fi', 2014, 'Christopher Nolan', 8.7, 773439417),
-(10, 'Gladiator', 'Action', 2000, 'Ridley Scott', 8.5, 460583960),
-(11, 'The Lion King', 'Animation', 1994, 'Roger Allers, Rob Minkoff', 8.5, 968511805),
-(12, 'Titanic', 'Romance', 1997, 'James Cameron', 7.9, 2264550681),
-(13, 'Saving Private Ryan', 'War', 1998, 'Steven Spielberg', 8.6, 482349603),
-(14, 'The Silence of the Lambs', 'Thriller', 1991, 'Jonathan Demme', 8.6, 272742922),
-(15, 'Avatar', 'Sci-Fi', 2009, 'James Cameron', 7.9, 2924000000);
-{%- endhighlight -%}
+<!-- {%- highlight Python -%}
+#Minimum Wage data
+#csv to dataframe
+minwagedf = pd.read_csv('minimum-wage-2024-by-state3.csv')
+minwagedf = minwagedf.sort_values(by='state').reset_index(drop=True)
+{%- endhighlight -%} -->
 
 ##### Code Explanation:
 If the code above confuses you, no worries! I got you. SQL's purpose is data retrieval, manipulation, and management. This means you'll start all your queries either initializing a database and inserting values or retrieving a database from some other source. The CREATE TABLE function initializes your table (called 'Movies') with keys, or column names. 'MovieID' is considered the PRIMARY KEY (meaning the special name given to each record) because each row will have a unique value.

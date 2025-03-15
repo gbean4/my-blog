@@ -24,12 +24,12 @@ Before we go any further, it should be said that ethically gathered information 
 After you have your data science question and are adhering to local data scraping policies and laws, you're ready to compile your data. You can do so using the following techniques:
 
 * Public datasets (I used these)
-* API's
+* APIs
 * Web scraping (these too)
 
-(Note: There are other ways, but these are the simplest and more our pace.)
+(Note: There are other methods, but these are the simplest and more our pace.)
 
-Also be sure that your data has a common column or factor, such as 'state', to ensure the final dataset can merge using a similar index. You'll thank me later. After collecting my datasets, I merged them into one to better observe correlation. Feel free to have fun with it, just be sure your dataset is clean and labeled so you don't get lost in the sauce. 
+Also, be sure that your data has a common column or factor, such as 'state', to ensure the final dataset can merge using a similar index. You'll thank me later. After collecting my datasets, I merged them into one to better observe correlations. Feel free to have fun with it, just make sure your dataset is clean and labeled so you don't get lost in the sauce. 
 
 <!-- {%- highlight Python -%}
 #Minimum Wage data

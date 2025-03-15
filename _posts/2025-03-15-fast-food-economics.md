@@ -18,6 +18,8 @@ In all good data analysis and curation, there starts an in-depth and answerable 
 As you will see later in the data, each state has its own economic needs and capabilities, and their effects are seen in the fluctuating prices of chain restaurants. It's a concern with many elements, and (as we love to hear) best broken down through data analysis. As we go along, feel free to ponder how you might personalize this curation or apply it to your own sciency questions.
 
 ### Ethical Considerations and Data Collection Methods:
+Before we get any further, it should be said that ethically gathered informaion is essential! In my analysis, I used public data sets as found on an online database (<a href="https://worldpopulationreview.com/" target="_blank">DBeaver: World Population Review</a>) and financial services company's compiled data from the Forbes and the U.S. Census Bureau (<a href="https://www.sofi.com/learn/content/average-salary-in-us/" target="_blank">Average US Salary by State</a>)
+
 There are many IDE options for your use! Most are user friendly and allows you to query what you need. Some options include:
 * MySQL
 * DBeaver (I use this IDE in the code below)

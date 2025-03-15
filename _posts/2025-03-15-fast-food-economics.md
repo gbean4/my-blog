@@ -31,7 +31,7 @@ After you have your data science question and are adhering to local data scrapin
 
 Also, be sure that your data has a common column or factor, such as 'state', to ensure the final dataset can merge using a similar index. You'll thank me later. After collecting my datasets, I merged them into one to better observe correlations. Feel free to have fun with it, just make sure your dataset is clean and labeled so you don't get lost in the sauce. Here is my merging code in case you need to compare. 
 
-{%- highlight Python -%}
+{%- highlight python -%}
 #combine all df into one on state
 combined_df = medavgdf.merge(livingcostdf, on='state', how='outer') \
                       .merge(minwagedf, on='state', how='outer') \
@@ -47,7 +47,7 @@ combined_df
 {%- endhighlight -%}
 
 ### EDA Highlights:
-Okay! Now that your datatable is set up and your IDE is running, we can start to query the data. Each SQL query has a few elements we want to keep in mind. The only two required elements are SELECT and FROM, as without these, your code won't know what to grab and from where (respectively).  
+ 
 
 
 #### Interesting Findings

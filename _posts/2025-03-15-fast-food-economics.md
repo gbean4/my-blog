@@ -52,8 +52,7 @@ combined_df
 {%- endhighlight -%}
 
 ### Exploratory Data Analysis Highlights:
-And now, the moment we've all been waiting for: EDA! 
-####
+And now, the moment we've all been waiting for: EDA! Using basic python, I was able to create a matrix object and find average correlations among all the states for each column.  
 
 <dl>
   <dt>Dataset Overview</dt>
@@ -69,16 +68,14 @@ And now, the moment we've all been waiting for: EDA!
   <dd>Cost of living is moderately correlated with the price of a Big Mac, which suggests that states with a higher cost of living tend to also have more expensive fast food, possibly due to higher labor costs and other factors.</dd>
   <dt>Low or No Correlation</dt>
   <dd>1. Unemployment Rate & Fast Food Prices</dd>
-  <dd>The unemployment rate has weak correlations with fast food prices. For instance, the correlation with McDonald's Big Mac (0.238) and Chick-fil-A Chicken Sandwich (0.217) are not very high, suggesting that unemployment may not directly drive fast food prices in a state.</dd>
+  <dd>The unemployment rate has weak correlations with fast food prices. For instance, the correlation with McDonald's Big Mac (0.238) and Chick-fil-A Chicken Sandwich (0.217) are not very high, meaning that unemployment may not directly drive fast food prices in a state.</dd>
   <dt>Interesting Observations</dt>
   <dd> Cost of Living has strong correlations with fast food prices (e.g., Chick-fil-A Chicken Sandwich: 0.816), which aligns with the idea that higher living costs often lead to higher prices across goods and services, including food.</dd>
   <dd>Minimum Wage correlates moderately with fast food prices (e.g., McDonald's Big Mac: 0.626), indicating that higher wages may lead to higher fast food prices, possibly due to higher labor costs in states with higher minimum wages.</dd>
+  <dt>Visualization: heatmap</dt>
+  <img src="{{site.url}}/{{site.baseurl}}/assets/img/correlation_between_economic_factors_and_restaurant_prices.png" alt="welppp"/>
+  <dd> To best understand this visualization, look at the top right or bottom left corners. In these areas, one can observe how these economic factors relate to our fast food of choice. It looks like economics really do pay a role the price of our french fries. 😭</dd>
 </dl>
-
-
-<img src="{{site.url}}/{{site.baseurl}}/assets/img/correlation_between_economic_factors_and_restaurant_prices.png" alt="welppp"/>
-
-
 
 ### Conclusion and Next Steps:
 

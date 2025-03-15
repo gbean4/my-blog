@@ -53,22 +53,26 @@ combined_df
 
 ### Exploratory Data Analysis Highlights:
 And now, the moment we've all been waiting for: EDA! 
-
+####
 
 <dl>
   <dt>Dataset Overview</dt>
   <dd>My data was 50 rows by 13 columns. All 50 states were included, along with 7 economic factors: average income, median income, cost of living, minimum wage, GDP, GDP growth, and unemployment rate. The 5 fast food restaurant items were a Dominos medium cheese pizza, a McDonald's Happy Meal and Big Mac, Chick-fil-a sandwich, and Taco Bell combo.
   </dd>
   <dt>High Correlations</dt>
-  <dd></dd>
+  <dd>1. Chick-fil-A Chicken Sandwich & Taco Bell Combo Meal (0.992)</dd>
+  <dd>These two variables are highly correlated, meaning that in states where the price of one is higher, the price of the other tends to be similarly high. This suggests that the prices of fast food items from different chains (Chick-fil-A and Taco Bell) move together.</dd>
+   <dd>2. McDonald's Big Mac & Chick-fil-A Chicken Sandwich (0.968)</dd>
+   <dd>Similarly, the Big Mac and Chick-fil-A Chicken Sandwich also have a very strong positive correlation, indicating that the prices of these two fast food items are closely aligned across states.</dd>
   <dt>Moderate Correlations</dt>
-  <dd>Specifies field criteria that must be met by each record to be included in the results.</dd>
+  <dd>1. Cost of Living & McDonald's Big Mac (0.782)</dd>
+  <dd>Cost of living is moderately correlated with the price of a Big Mac, which suggests that states with a higher cost of living tend to also have more expensive fast food, possibly due to higher labor costs and other factors.</dd>
   <dt>Low or No Correlation</dt>
-  <dd>Specifies how to sort the results.</dd>
+  <dd>1. Unemployment Rate & Fast Food Prices</dd>
+  <dd>The unemployment rate has weak correlations with fast food prices. For instance, the correlation with McDonald's Big Mac (0.238) and Chick-fil-A Chicken Sandwich (0.217) are not very high, suggesting that unemployment may not directly drive fast food prices in a state.</dd>
   <dt>Interesting Observations</dt>
-  <dd> Lists fields that are not summarized in the SELECT clause.</dd>
-  <dt>HAVING</dt>
-  <dd>Specifies conditions that apply to fields that are summarized in the SELECT statement.</dd>
+  <dd> Cost of Living has strong correlations with fast food prices (e.g., Chick-fil-A Chicken Sandwich: 0.816), which aligns with the idea that higher living costs often lead to higher prices across goods and services, including food.</dd>
+  <dd>Minimum Wage correlates moderately with fast food prices (e.g., McDonald's Big Mac: 0.626), indicating that higher wages may lead to higher fast food prices, possibly due to higher labor costs in states with higher minimum wages.</dd>
 </dl>
 
 

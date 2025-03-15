@@ -13,7 +13,7 @@ All jokes aside, though, there's a lot of value—for the average consumer as we
 ### Motivating Question:
 In all good data analysis and curation, there starts an in-depth and answerable question. A well-crafted question guides the analysis and defines the bounds of your research. The question I asked myself was this:
 
-##### How do state-level minimum wage, cost of living, median household income, and other factors impact the average price of a standard fast food meal across the U.S.?
+<b>How do state-level minimum wage, cost of living, median household income, and other factors impact the average price of a standard fast food meal across the U.S.?</b>
 
 As you will see later in the data, each state has its own economic needs and capabilities, and their effects are seen in the fluctuating prices of chain restaurants. It's a concern with many elements, and (as we love to hear) best broken down through data analysis. As we go along, feel free to ponder how you might personalize this curation or apply it to your own sciency questions.
 
@@ -25,7 +25,7 @@ After you have your data science question and are adhering to local data scrapin
 
 * Public datasets (I used these)
 * APIs
-* Web scraping (these too)
+* Web scraping (this too)
 
 (Note: There are other methods, but these are the simplest and more our pace.)
 

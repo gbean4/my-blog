@@ -54,27 +54,27 @@ combined_df
 ### Exploratory Data Analysis Highlights:
 And now, the moment we've all been waiting for: EDA! 
 
+
 <dl>
-  <dt>SELECT (Required)</dt>
-  <dd>Lists the fields that contain data of interest
+  <dt>Dataset Overview</dt>
+  <dd>My data was 50 rows by 13 columns. All 50 states were included, along with 7 economic factors: average income, median income, cost of living, minimum wage, GDP, GDP growth, and unemployment rate. The 5 fast food restaurant items were a Dominos medium cheese pizza, a McDonald's Happy Meal and Big Mac, Chick-fil-a sandwich, and Taco Bell combo.
   </dd>
-  <dt>FROM (Required)</dt>
-  <dd>Lists the tables that contain the fields listed in the SELECT clause.</dd>
-  <dt>WHERE</dt>
+  <dt>High Correlations</dt>
+  <dd></dd>
+  <dt>Moderate Correlations</dt>
   <dd>Specifies field criteria that must be met by each record to be included in the results.</dd>
-  <dt>ORDER BY</dt>
+  <dt>Low or No Correlation</dt>
   <dd>Specifies how to sort the results.</dd>
-  <dt>GROUP BY</dt>
+  <dt>Interesting Observations</dt>
   <dd> Lists fields that are not summarized in the SELECT clause.</dd>
   <dt>HAVING</dt>
   <dd>Specifies conditions that apply to fields that are summarized in the SELECT statement.</dd>
 </dl>
 
-AverageIncome	MedianIncome	CostOfLiving	MinimumWage	GDP	GDPGrowth	UnemploymentRate	DominosMedCheese	McDonaldsHappyMeal	McDonaldsBigMac	ChickfilAChickenSandwich	TacoBellComboMeal
 
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/correlation_between_economic_factors_and_restaurant_prices.png" alt="welppp"/>
 
-#### Interesting Findings:
+
 
 ### Conclusion and Next Steps:
 

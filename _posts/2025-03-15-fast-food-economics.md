@@ -17,6 +17,11 @@ In all good data analysis and curation, there starts an in-depth and answerable 
 
 As you will see later in the data, each state has its own economic needs and capabilities, and their effects are seen in the fluctuating prices of chain restaurants. It's a concern with many elements, and (as we love to hear) best broken down through data analysis. As we go along, feel free to ponder how you might personalize this curation or apply it to your own sciency questions.
 
+<figure>
+<img src="{{site.url}}/{{site.baseurl}}/assets/img/bigmac.jpg" alt="welppp"/>
+<figcaption>McDonald's Big Mac for reference. Made by Ronald himself.</figcaption>
+</figure>
+
 ### Ethical Considerations and Data Collection Methods:
 Before we go any further, it should be said that ethically gathered information is essential! In my analysis, I used public datasets found on an online database (<a href="https://worldpopulationreview.com/" target="_blank">DBeaver: World Population Review</a>) and on a financial services company's compiled data from the Forbes and the U.S. Census Bureau (<a href="https://www.sofi.com/learn/content/average-salary-in-us/" target="_blank">Average US Salary by State</a>). I collected the latter dataset through web scraping while adhering to website policies.
 
@@ -46,9 +51,26 @@ combined_df.to_csv('fast_food_analysis.csv', index=False)
 combined_df
 {%- endhighlight -%}
 
-### EDA Highlights:
+### Exploratory Data Analysis Highlights:
+And now, the moment we've all been waiting for: EDA! 
 
+<dl>
+  <dt>SELECT (Required)</dt>
+  <dd>Lists the fields that contain data of interest
+  </dd>
+  <dt>FROM (Required)</dt>
+  <dd>Lists the tables that contain the fields listed in the SELECT clause.</dd>
+  <dt>WHERE</dt>
+  <dd>Specifies field criteria that must be met by each record to be included in the results.</dd>
+  <dt>ORDER BY</dt>
+  <dd>Specifies how to sort the results.</dd>
+  <dt>GROUP BY</dt>
+  <dd> Lists fields that are not summarized in the SELECT clause.</dd>
+  <dt>HAVING</dt>
+  <dd>Specifies conditions that apply to fields that are summarized in the SELECT statement.</dd>
+</dl>
 
+AverageIncome	MedianIncome	CostOfLiving	MinimumWage	GDP	GDPGrowth	UnemploymentRate	DominosMedCheese	McDonaldsHappyMeal	McDonaldsBigMac	ChickfilAChickenSandwich	TacoBellComboMeal
 
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/correlation_between_economic_factors_and_restaurant_prices.png" alt="welppp"/>
 
@@ -58,7 +80,7 @@ combined_df
 
 
 
-<a href="https://www.sofi.com/learn/content/average-salary-in-us/" target="_blank">Average US Salary by State</a>
+<a href="https://github.com/gbean4/Post_2" target="_blank">GitHub Repository</a>
 
 <a href="https://www.sofi.com/learn/content/average-salary-in-us/" target="_blank">Average US Salary by State</a>
 
@@ -79,7 +101,6 @@ combined_df
   <dd>Specifies conditions that apply to fields that are summarized in the SELECT statement.</dd>
 </dl>
 
-<img src="{{site.url}}/{{site.baseurl}}/assets/img/Screenshot3.jpg" alt="welppp"/>
 
 <figure>
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/Screenshot5.jpg" alt="welppp"/>

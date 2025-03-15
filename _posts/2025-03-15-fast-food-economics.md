@@ -52,11 +52,11 @@ combined_df
 {%- endhighlight -%}
 
 ### Exploratory Data Analysis Highlights:
-And now, the moment we've all been waiting for: EDA! Using basic python, I was able to create a matrix object and find average correlations among all the states for each column.  
+And now, the moment we've all been waiting for: EDA! Using basic Python, I was able to create a matrix object and find the average correlations among all the states for each column.  
 
 <dl>
   <dt>Dataset Overview</dt>
-  <dd>My data was 50 rows by 13 columns. All 50 states were included, along with 7 economic factors: average income, median income, cost of living, minimum wage, GDP, GDP growth, and unemployment rate. The 5 fast food restaurant items were a Dominos medium cheese pizza, a McDonald's Happy Meal and Big Mac, Chick-fil-a sandwich, and Taco Bell combo.
+  <dd>My data contained 50 rows and 13 columns. All 50 states were included, along with 7 economic factors: average income, median income, cost of living, minimum wage, GDP, GDP growth, and unemployment rate. The five fast food restaurant items included a Domino's medium cheese pizza, a McDonald's Happy Meal and Big Mac, Chick-fil-A sandwich, and Taco Bell combo.
   </dd>
   <dt>High Correlations</dt>
   <dd>1. Chick-fil-A Chicken Sandwich & Taco Bell Combo Meal (0.992)</dd>
@@ -65,45 +65,26 @@ And now, the moment we've all been waiting for: EDA! Using basic python, I was a
    <dd>Similarly, the Big Mac and Chick-fil-A Chicken Sandwich also have a very strong positive correlation, indicating that the prices of these two fast food items are closely aligned across states.</dd>
   <dt>Moderate Correlations</dt>
   <dd>1. Cost of Living & McDonald's Big Mac (0.782)</dd>
-  <dd>Cost of living is moderately correlated with the price of a Big Mac, which suggests that states with a higher cost of living tend to also have more expensive fast food, possibly due to higher labor costs and other factors.</dd>
+  <dd>Cost of living is moderately correlated with the price of a Big Mac, which suggests that states with a higher cost of living tend to also have more expensive fast food" → "Cost of living is moderately correlated with the price of a Big Mac, which suggests that states with a higher cost of living also tend to have more expensive fast food.</dd>
   <dt>Low or No Correlation</dt>
   <dd>1. Unemployment Rate & Fast Food Prices</dd>
-  <dd>The unemployment rate has weak correlations with fast food prices. For instance, the correlation with McDonald's Big Mac (0.238) and Chick-fil-A Chicken Sandwich (0.217) are not very high, meaning that unemployment may not directly drive fast food prices in a state.</dd>
+  <dd>The unemployment rate has weak correlations with fast food prices. For instance, the correlation with McDonald's Big Mac (0.238) and Chick-fil-A Chicken Sandwich (0.217) are not very high" → "The unemployment rate has weak correlations with fast food prices. For instance, the correlation with a McDonald's Big Mac (0.238) and a Chick-fil-A Chicken Sandwich (0.217) is not very high.</dd>
   <dt>Interesting Observations</dt>
   <dd> Cost of Living has strong correlations with fast food prices (e.g., Chick-fil-A Chicken Sandwich: 0.816), which aligns with the idea that higher living costs often lead to higher prices across goods and services, including food.</dd>
   <dd>Minimum Wage correlates moderately with fast food prices (e.g., McDonald's Big Mac: 0.626), indicating that higher wages may lead to higher fast food prices, possibly due to higher labor costs in states with higher minimum wages.</dd>
-  <dt>Visualization: heatmap</dt>
+  <dt>Visualization: Heatmap</dt>
   <img src="{{site.url}}/{{site.baseurl}}/assets/img/correlation_between_economic_factors_and_restaurant_prices.png" alt="welppp"/>
-  <dd> To best understand this visualization, look at the top right or bottom left corners. In these areas, one can observe how these economic factors relate to our fast food of choice. It looks like economics really do pay a role the price of our french fries. 😭</dd>
+  <dd> To best understand this visualization, look at the top-right or bottom-left corners. In these areas, one can observe how these economic factors relate to our fast food of choice. It looks like economics really does play a role in the price of our french fries. 😭</dd>
 </dl>
 
 ### Conclusion and Next Steps:
+At the end of the day, my data question has been answered. It is slightly saddening to realize my cheap fast food will continue to increase in price with the economy and inflation, but how cool is it to to mathematically see how it does so?
 
+In a broader sense, this data could be very helpful for fast food corporations or small businesses looking to make their prices more appealing for their target audience. If this data curation were done differently, it might be useful to analyze correlations on a state level, as any particularly overpriced fast food items would stand out on a smaller scale.
+
+I hope you enjoyed this simple data curation project! Remember, "garbage in = garbage out" when it comes to data analysis. Below, you can find the link to my code on GitHub and a video for more guidance. Happy analyzing!
 
 
 <a href="https://github.com/gbean4/Post_2" target="_blank">GitHub Repository</a>
 
-<a href="https://www.sofi.com/learn/content/average-salary-in-us/" target="_blank">Average US Salary by State</a>
-
-
-<dl>
-  <dt>SELECT (Required)</dt>
-  <dd>Lists the fields that contain data of interest
-  </dd>
-  <dt>FROM (Required)</dt>
-  <dd>Lists the tables that contain the fields listed in the SELECT clause.</dd>
-  <dt>WHERE</dt>
-  <dd>Specifies field criteria that must be met by each record to be included in the results.</dd>
-  <dt>ORDER BY</dt>
-  <dd>Specifies how to sort the results.</dd>
-  <dt>GROUP BY</dt>
-  <dd> Lists fields that are not summarized in the SELECT clause.</dd>
-  <dt>HAVING</dt>
-  <dd>Specifies conditions that apply to fields that are summarized in the SELECT statement.</dd>
-</dl>
-
-
-<figure>
-<img src="{{site.url}}/{{site.baseurl}}/assets/img/Screenshot5.jpg" alt="welppp"/>
-<figcaption>The above code sums up revenues based on the genre, as well as only showing records with a rating above 8/10. How cool!!</figcaption>
-</figure>
+<a href="https://www.youtube.com/watch?v=w_B1CDWUx34" target="_blank">First steps towards data curation video</a>

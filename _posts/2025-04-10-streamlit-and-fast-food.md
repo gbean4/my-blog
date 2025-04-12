@@ -30,7 +30,7 @@ The fast food items I compared were a Dominoâ€™s medium cheese pizza, McDonaldâ€
   </dd>
   <dt>Fast foods to eachother</dt>
   <dd>(bigmac and chickfila)</dd>
-  </d1>
+</d1>
 
 ### Streamlit App: <a href="https://fast-food-analysis.streamlit.app/" target="_blank">Fast Food Analysis</a>
 

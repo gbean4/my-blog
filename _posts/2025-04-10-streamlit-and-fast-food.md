@@ -28,9 +28,9 @@ The fast food items I compared were a Dominoâ€™s medium cheese pizza, McDonaldâ€
 
 
 
-### Streamlit App:
+### Streamlit App: <a href="https://fast-food-analysis.streamlit.app/" target="_blank">Fast Food Analysis</a>
 
-<a href="https://fast-food-analysis.streamlit.app/" target="_blank">Streamlit App: Fast Food Analysis</a>
+<a href="https://fast-food-analysis.streamlit.app/" target="_blank">Fast Food Analysis</a>
 
 
 #### Purpose:

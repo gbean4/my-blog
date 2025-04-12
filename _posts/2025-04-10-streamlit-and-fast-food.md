@@ -24,6 +24,7 @@ This question also helped shape my analysis, influencing what I looked for in th
 The fast food items I compared were a Domino’s medium cheese pizza, McDonald’s Happy Meal and Big Mac, a Chick-fil-A sandwich, and a Taco Bell combo meal.
 
 ### Highlights:
+
 <dl>
   <dt>Average income and fast food</dt>
   <dd>(seen across almost all regions and all foods, except the west and Dominos's pizza)
@@ -31,6 +32,7 @@ The fast food items I compared were a Domino’s medium cheese pizza, McDonald�
   <dt>Fast foods to eachother</dt>
   <dd>(bigmac and chickfila)</dd>
 </d1>
+
 
 ### Streamlit App: <a href="https://fast-food-analysis.streamlit.app/" target="_blank">Fast Food Analysis</a>
 

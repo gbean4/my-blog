@@ -48,8 +48,8 @@ Heatmap: Overall Correlation
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/correlation_between_economic_factors_and_restaurant_prices.png" alt="welppp"/>
 
 Heatmap: Region Correlation (South and Northeast)
-<img src="{{site.url}}/{{site.baseurl}}assets/img/heatmap_region.jpg" alt="welppp"/>
-<img src="{{site.url}}/{{site.baseurl}}\assets\img\heatmap_region_northeast.jpg" alt="welppp"/>
+<img src="{{site.url}}/{{site.baseurl}}/assets/img/heatmap_region.jpg" alt="welppp"/>
+<img src="{{site.url}}/{{site.baseurl}}/assets/img/heatmap_region_northeast.jpg" alt="welppp"/>
 
 Choropleth map: Fast Food and Exonomics by State
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/chloropeth_food.jpg" alt="welppp"/>

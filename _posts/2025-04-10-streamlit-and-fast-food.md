@@ -5,15 +5,18 @@ date: 2025-06-16
 description: Is there a cross-country road trip in your future? Maybe pack a lunch. This blog tackles key insights relating to how factors like minimum wage, cost of living, and household income influence the price of a standard meal. Look for the interactive Streamlit app for deeper exploration, and unpack what fast food prices reveal about broader regional economics.
 
 ---
-<p class="intro"><span class="dropcap">D</span>o you ever look at the rising cost of your Taco Bell combo, channel your inner grumpy old man, and wonder aloud, "Why is this so expensive? Back in my day, it was only $0.75." No? Yeah, me neither. However, it is an interesting question to ask: how are our favorite fast food items priced, and why do they change? Although there's probably an in-depth socio-economic answer, we can look at the recent economic data across each state and the respective food prices to better understand what might factor into those McCosts.
+<p class="intro"><span class="dropcap">W</span>
+ith all the economic uncertainty and changes in recent months, we're all asking ourselves the same question: Can I still afford Chick-fil-A? Turns out there are several factors that play a role in the adjusting prices of our favorite fast food items. This is best seen across many factors and all 50 states. Whether you can afford the frosted lemonade, though...? You might need to do your own analysis.
 
-All jokes aside, though, there's a lot of value—for the average consumer as well as business owners—in knowing how to get the best product for your buck.
+Using those handy-dandy data curation abilities, I put together a dataset with key economic factors and various fast food items. Although we might have our own guesses and hypotheses, understanding our world around us requires some good ol' data manipulation and EDA.
  </p>
 
-### Motivating Question:
-In all good data analysis and curation, there starts an in-depth and answerable question. A well-crafted question guides the analysis and defines the bounds of your research. The question I asked myself was this:
+### Motivatiion:
+The motivating question I used to guide my curation and EDA was this:
 
 <b>How do state-level minimum wage, cost of living, median household income, and other factors impact the average price of a standard fast food meal across the U.S.?</b>
+
+
 
 As you will see later in the data, each state has its own economic needs and capabilities, and their effects are seen in the fluctuating prices of chain restaurants. It's a concern with many elements, and (as we love to hear) best broken down through data analysis. As we go along, feel free to ponder how you might personalize this curation or apply it to your own sciency questions.
 

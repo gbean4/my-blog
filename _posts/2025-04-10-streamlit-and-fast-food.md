@@ -6,9 +6,10 @@ description: Is there a cross-country road trip in your future? Maybe pack a lun
 
 ---
 <p class="intro"><span class="dropcap">W</span>
-ith all the economic uncertainty and recent changes, we're all asking ourselves the same question: <i>Can I still afford Chick-fil-A?</i> It turns out there are several factors that influence the rising prices of our favorite fast food items——factors that vary across many dimensions and all 50 states. As for whether you can still afford that frosted lemonade..? Well, you might need to run your own analysis.
+ith all the economic uncertainty as of late, we're all asking ourselves the same question: <i>Can I still afford Chick-fil-A?</i> It turns out there are several factors that influence the rising prices of our favorite fast food items—factors that vary across regions and all 50 states. As for whether you can still afford that frosted lemonade..? Well, you might need to run your own analysis.</p>
 
-Using those handy-dandy data curation abilities, I put together a dataset with key economic factors and various fast food items. Although we might have our own guesses and hypotheses, understanding the world around us requires some good ol' data manipulation and quality EDA.
+<p>
+Using those handy-dandy data curation abilities, I put together a dataset with key economic factors and various fast food items. Although we might have our own guesses and hypotheses for why things happen, truly understanding the world around us requires some good ol' data manipulation and quality EDA.
  </p>
 
 ### Motivation:

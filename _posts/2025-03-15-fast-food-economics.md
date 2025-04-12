@@ -65,10 +65,10 @@ And now, the moment we've all been waiting for: EDA! Using basic Python, I was a
    <dd>Similarly, the Big Mac and Chick-fil-A Chicken Sandwich also have a very strong positive correlation, indicating that the prices of these two fast food items are closely aligned across states.</dd>
   <dt>Moderate Correlations</dt>
   <dd>1. Cost of Living & McDonald's Big Mac (0.782)</dd>
-  <dd>Cost of living is moderately correlated with the price of a Big Mac, which suggests that states with a higher cost of living tend to also have more expensive fast food" → "Cost of living is moderately correlated with the price of a Big Mac, which suggests that states with a higher cost of living also tend to have more expensive fast food.</dd>
+  <dd>Cost of living is moderately correlated with the price of a Big Mac, which suggests that states with a higher cost of living tend to also have more expensive fast food</dd>
   <dt>Low or No Correlation</dt>
   <dd>1. Unemployment Rate & Fast Food Prices</dd>
-  <dd>The unemployment rate has weak correlations with fast food prices. For instance, the correlation with McDonald's Big Mac (0.238) and Chick-fil-A Chicken Sandwich (0.217) are not very high" → "The unemployment rate has weak correlations with fast food prices. For instance, the correlation with a McDonald's Big Mac (0.238) and a Chick-fil-A Chicken Sandwich (0.217) is not very high.</dd>
+  <dd>The unemployment rate has weak correlations with fast food prices. For instance, the correlation with McDonald's Big Mac (0.238) and Chick-fil-A Chicken Sandwich (0.217) are not very high</dd>
   <dt>Interesting Observations</dt>
   <dd> Cost of Living has strong correlations with fast food prices (e.g., Chick-fil-A Chicken Sandwich: 0.816), which aligns with the idea that higher living costs often lead to higher prices across goods and services, including food.</dd>
   <dd>Minimum Wage correlates moderately with fast food prices (e.g., McDonald's Big Mac: 0.626), indicating that higher wages may lead to higher fast food prices, possibly due to higher labor costs in states with higher minimum wages.</dd>

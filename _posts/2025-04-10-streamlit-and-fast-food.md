@@ -8,7 +8,7 @@ description: Is there a cross-country road trip in your future? Maybe pack a lun
 <p class="intro"><span class="dropcap">W</span>
 ith all the economic uncertainty and changes in recent months, we're all asking ourselves the same question: Can I still afford Chick-fil-A? Turns out there are several factors that play a role in the adjusting prices of our favorite fast food items. This is best seen across many factors and all 50 states. Whether you can afford the frosted lemonade, though...? You might need to do your own analysis.
 
-Using those handy-dandy data curation abilities, I put together a dataset with key economic factors and various fast food items. Although we might have our own guesses and hypotheses, understanding our world around us requires some good ol' data manipulation and EDA.
+Using those handy-dandy data curation abilities, I put together a dataset with key economic factors and various fast food items. Although we might have our own guesses and hypotheses, understanding our world around us requires some good ol' data manipulation and quality EDA.
  </p>
 
 ### Motivatiion:

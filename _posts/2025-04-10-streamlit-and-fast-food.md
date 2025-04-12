@@ -25,24 +25,21 @@ The fast food items I compared were a Domino’s medium cheese pizza, McDonald�
 
 ### Highlights:
 
+* Average income and foods (seen across almost all regions and all foods, except the west and Dominos's pizza)
+
+* Fast foods to eachother (bigmac and chickfila)
+
+* Cost of living and GDP (except for outliers, ie Hawaii and Wisonsin Happy meals)
 
 
 
 ### Streamlit App: <a href="https://fast-food-analysis.streamlit.app/" target="_blank">Fast Food Analysis</a>
-
-<a href="https://fast-food-analysis.streamlit.app/" target="_blank">Fast Food Analysis</a>
-
 
 #### Purpose:
 Post clearly explains the app’s purpose, aligning it with the dataset and audience, and effectively describes its features and value for exploring the data.
 
 #### Features:
 Post provides a detailed and engaging description of the app’s features, visualizations, and interactivity, including specific examples of how users can explore the data and gain insights.	
-
-* overall
-* region
-* fast food and economics by state
-* factor vs food
 
 Heatmap: Overall Correlation
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/correlation_between_economic_factors_and_restaurant_prices.png" alt="welppp"/>

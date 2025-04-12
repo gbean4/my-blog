@@ -9,15 +9,24 @@ description: Is there a cross-country road trip in your future? Maybe pack a lun
 ith all the economic uncertainty as of late, we're all asking ourselves the same question: <i>Can I still afford Chick-fil-A?</i> It turns out there are several factors that influence the rising prices of our favorite fast food items—factors that vary across regions and all 50 states. As for whether you can still afford that frosted lemonade..? Well, you might need to run your own analysis.</p>
 
 <p>
-Using those handy-dandy data curation abilities, I put together a dataset with key economic factors and various fast food items. Although we might have our own guesses and hypotheses for why things happen, truly understanding the world around us requires some good ol' data manipulation and quality EDA.
+Using those handy-dandy data curation skills, I put together a dataset that includes key economic factors and a variety of fast food items. Although we might have our own guesses and hypotheses about why things happen, truly understanding the world around us requires some good ol' data manipulation and quality EDA.
+
+In the following paragraphs, I’ll walk through some highlights and trends found in the data and introduce my Streamlit app, which allows us to explore these trends in action.
  </p>
 
 ### Motivation:
-The motivating question I used to guide my curation and EDA was this:
+The motivating question that guided my data curation and EDA was this:
 
 <b>How do state-level minimum wage, cost of living, median household income, and other factors impact the average price of a standard fast food meal across the U.S.?</b>
 
+This question also helped shape my analysis, influencing what I looked for in the data. Additional economic factors included in the analysis—but not listed in the question—were: average income, cost of living index, gross domestic product (GDP), GDP growth rate, and unemployment rate.
+
+The fast food items I compared were a Domino’s medium cheese pizza, McDonald’s Happy Meal and Big Mac, a Chick-fil-A sandwich, and a Taco Bell combo meal.
+
 ### Highlights:
+
+
+
 
 ### Streamlit App:
 #### Purpose:

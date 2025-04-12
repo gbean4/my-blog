@@ -24,14 +24,13 @@ This question also helped shape my analysis, influencing what I looked for in th
 The fast food items I compared were a Domino’s medium cheese pizza, McDonald’s Happy Meal and Big Mac, a Chick-fil-A sandwich, and a Taco Bell combo meal.
 
 ### Highlights:
-
-* Average income and foods (seen across almost all regions and all foods, except the west and Dominos's pizza)
-
-* Fast foods to eachother (bigmac and chickfila)
-
-* Cost of living and GDP (except for outliers, ie Hawaii and Wisonsin Happy meals)
-
-
+<dl>
+  <dt>Average income and fast food</dt>
+  <dd>(seen across almost all regions and all foods, except the west and Dominos's pizza)
+  </dd>
+  <dt>Fast foods to eachother</dt>
+  <dd>(bigmac and chickfila)</dd>
+  </d1>
 
 ### Streamlit App: <a href="https://fast-food-analysis.streamlit.app/" target="_blank">Fast Food Analysis</a>
 
@@ -55,7 +54,7 @@ Choropleth map: Fast Food and Exonomics by State
 Scatterplot: Fast Food vs. Factor
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/scatter_plot.jpg" alt="welppp"/>
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/scatter_plot_wisconsin.jpg" alt="welppp"/>
-
+* Cost of living and GDP (except for outliers, ie Hawaii and Wisonsin Happy meals)
 
 ### Conclusion:
 Post includes a summary or conclusion with a question or challenge to encourage comments	

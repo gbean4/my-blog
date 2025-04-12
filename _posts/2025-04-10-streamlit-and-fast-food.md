@@ -2,31 +2,33 @@
 layout: post
 title:  "Visualizing Using Streamlit: The Price of a Bite"
 date: 2025-04-11
-description: Is there a cross-country road trip in your future? Maybe pack a lunch. This blog tackles key insights relating to how factors like minimum wage, cost of living, and household income influence the price of a standard meal. Look for the interactive Streamlit app for deeper exploration, and unpack what fast food prices reveal about broader regional economics.
+description: Is there a cross-country road trip in your future? Maybe pack a lunch. This blog tackles key insights relating to how economic factors like minimum wage, cost of living, and household income influence the price of a standard meal. Look for the interactive Streamlit app for deeper exploration, and unpack what fast food prices reveal about broader regional economics.
 
 ---
 <p class="intro"><span class="dropcap">W</span>
-ith all the economic uncertainty and changes in recent months, we're all asking ourselves the same question: Can I still afford Chick-fil-A? Turns out there are several factors that play a role in the adjusting prices of our favorite fast food items. This is best seen across many factors and all 50 states. Whether you can afford the frosted lemonade, though...? You might need to do your own analysis.
+ith all the economic uncertainty and recent changes, we're all asking ourselves the same question: <i>Can I still afford Chick-fil-A?</i> It turns out there are several factors that influence the rising prices of our favorite fast food items——factors that vary across many dimensions and all 50 states. As for whether you can still afford that frosted lemonade..? Well, you might need to run your own analysis.
 
-Using those handy-dandy data curation abilities, I put together a dataset with key economic factors and various fast food items. Although we might have our own guesses and hypotheses, understanding our world around us requires some good ol' data manipulation and quality EDA.
+Using those handy-dandy data curation abilities, I put together a dataset with key economic factors and various fast food items. Although we might have our own guesses and hypotheses, understanding the world around us requires some good ol' data manipulation and quality EDA.
  </p>
 
-### Motivatiion:
+### Motivation:
 The motivating question I used to guide my curation and EDA was this:
 
 <b>How do state-level minimum wage, cost of living, median household income, and other factors impact the average price of a standard fast food meal across the U.S.?</b>
 
+### Highlights:
 
+### Streamlit App:
+#### Purpose:
+Post clearly explains the app’s purpose, aligning it with the dataset and audience, and effectively describes its features and value for exploring the data.
 
-As you will see later in the data, each state has its own economic needs and capabilities, and their effects are seen in the fluctuating prices of chain restaurants. It's a concern with many elements, and (as we love to hear) best broken down through data analysis. As we go along, feel free to ponder how you might personalize this curation or apply it to your own sciency questions.
+#### Features:
+Post provides a detailed and engaging description of the app’s features, visualizations, and interactivity, including specific examples of how users can explore the data and gain insights.	
 
-<figure>
-<img src="{{site.url}}/{{site.baseurl}}/assets/img/bigmac.jpg" alt="welppp"/>
-<figcaption>McDonald's Big Mac for reference. Made by Ronald himself.</figcaption>
-</figure>
-
-### Ethical Considerations and Data Collection Methods:
-Before we go any further, it should be said that ethically gathered information is essential! In my analysis, I used public datasets found on an online database (<a href="https://worldpopulationreview.com/" target="_blank">DBeaver: World Population Review</a>) and on a financial services company's compiled data from the Forbes and the U.S. Census Bureau (<a href="https://www.sofi.com/learn/content/average-salary-in-us/" target="_blank">Average US Salary by State</a>). I collected the latter dataset through web scraping while adhering to website policies.
+* overall
+* region
+* state vs food vs factor
+* factor vs food
 
 ### Getting Started with Your Data:
 After you have your data science question and are adhering to local data scraping policies and laws, you're ready to compile your data. You can do so using the following techniques:
@@ -80,14 +82,10 @@ And now, the moment we've all been waiting for: EDA! Using basic Python, I was a
   <dd> To best understand this visualization, look at the top-right or bottom-left corners. In these areas, one can observe how these economic factors relate to our fast food of choice. It looks like economics really does play a role in the price of our french fries. 😭</dd>
 </dl>
 
-### Conclusion and Next Steps:
-At the end of the day, my data question has been answered. It is slightly saddening to realize my cheap fast food will continue to increase in price with the economy and inflation, but how cool is it to to mathematically see how it does so?
-
-In a broader sense, this data could be very helpful for fast food corporations or small businesses looking to make their prices more appealing for their target audience. If this data curation were done differently, it might be useful to analyze correlations on a state level, as any particularly overpriced fast food items would stand out on a smaller scale.
-
-I hope you enjoyed this simple data curation project! Remember, "garbage in = garbage out" when it comes to data analysis. Below, you can find the link to my code on GitHub and a video for more guidance. Happy analyzing!
+### Conclusion:
+Post includes a summary or conclusion with a question or challenge to encourage comments	
 
 
-<a href="https://github.com/gbean4/Post_2" target="_blank">GitHub Repository</a>
+<a href="https://github.com/gbean4/blog3_streamlit.git" target="_blank">GitHub Repository</a>
 
-<a href="https://www.youtube.com/watch?v=w_B1CDWUx34" target="_blank">First steps towards data curation video</a>
+<a href="https://www.youtube.com/watch?v=d7fnzDQ5qM8" target="_blank">Streamlit Crash Course: From Zero to Data App</a>

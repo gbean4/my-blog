@@ -48,7 +48,7 @@ The major benefit of using a Streamlit application to explore the data is its ab
 ##### Heatmap: Overall Correlation
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/correlation_between_economic_factors_and_restaurant_prices.png" alt="welppp"/>
 
-The overall correlation heatmap is just what it sounds like, but in case of confusion, it includes a brief explanation to help guide interpretation and highlight where to look for meaningful relationships. This map represents the average of each economic factor and fast food price across all 50 states.
+The overall correlation heatmap is just what it sounds like, but in case of confusion, the Streamlit includes a brief explanation to help guide interpretation and highlight where to look for meaningful relationships. This map represents the average of each economic factor and fast food price across all 50 states.
 
 ##### Heatmap: Region Correlation (South and Northeast)
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/heatmap_region_south.jpg" alt="welppp"/>
@@ -60,7 +60,7 @@ While the overall map provides a useful high-level summary, the regional maps re
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/chloropeth_food.jpg" alt="welppp"/>
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/chloropeth_factor.jpg" alt="welppp"/>
 
-The choropleth maps are especially interesting for observing state-level trends. By selecting a specific food item and economic factor, you can compare how similar or different the two maps appear. Maps with similar color patterns suggest a positive relationship, while noticeable differences in coloring indicate a weaker or nonexistent trend.
+The choropleth maps are especially interesting for observing state-level trends. By selecting a specific food item and economic factor, one can compare how similar or different the two maps appear. Maps with similar color patterns suggest a positive relationship, while noticeable differences in coloring indicate a weaker or nonexistent trend.
 
 
 ##### Scatterplot: Fast Food vs. Factor

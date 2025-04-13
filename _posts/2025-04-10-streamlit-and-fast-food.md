@@ -41,7 +41,7 @@ This question also helped shape my analysis, influencing what I looked for in th
 ### Streamlit App: <a href="https://fast-food-analysis.streamlit.app/" target="_blank">Fast Food Analysis</a>
 
 #### Purpose:
-Post clearly explains the app’s purpose, aligning it with the dataset and audience, and effectively describes its features and value for exploring the data.
+The major benefit to using a Streamlit application to explore the data is its ability to observe trends in many ways across many fronts. In my Streamlit, I focused on 4 different types of graphs or maps, such as an overall correlation map, a correlation map based on region, cloropleth maps for fast food items and factors, and a general scatter plot to track trends. Feel free to click the link above and see how each factor impacts your favorite chain restaurants. 
 
 #### Features:
 Post provides a detailed and engaging description of the app’s features, visualizations, and interactivity, including specific examples of how users can explore the data and gain insights.	
@@ -49,18 +49,27 @@ Post provides a detailed and engaging description of the app’s features, visua
 Heatmap: Overall Correlation
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/correlation_between_economic_factors_and_restaurant_prices.png" alt="welppp"/>
 
+The overall correlation heatmap is just what it sounds like, but in case of confusion, it includes a brief explanation to help guide interpretation and highlight where to look for meaningful relationships. This map represents the average of each economic factor and fast food price across all 50 states.
+
 Heatmap: Region Correlation (South and Northeast)
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/heatmap_region_south.jpg" alt="welppp"/>
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/heatmap_region_northeast.jpg" alt="welppp"/>
+
+While the overall map provides a useful high-level summary, the regional maps reveal how these relationships vary across the country. The most noticeable differences appear between the South and Northeast. Since the Northeast tends to have a wider range of household incomes and cost of living, and the South a narrower range, the regional heatmaps reflect these contrasts.
 
 Choropleth map: Fast Food and Exonomics by State
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/chloropeth_food.jpg" alt="welppp"/>
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/chloropeth_factor.jpg" alt="welppp"/>
 
+The choropleth maps are especially interesting for observing state-level trends. By selecting a specific food item and economic factor, you can compare how similar or different the two maps appear. Maps with similar color patterns suggest a positive relationship, while noticeable differences in coloring indicate a weaker or nonexistent trend.
+
+
 Scatterplot: Fast Food vs. Factor
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/scatter_plot.jpg" alt="welppp"/>
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/scatter_plot_wisconsin.jpg" alt="welppp"/>
 * Cost of living and GDP (except for outliers, ie Hawaii and Wisonsin Happy meals)
+
+Although not as clear numerically, the scatter plots show positive linear trends, or the lack thereof, in the data. Users can select an economic factor and food item to see how—as economic factors increase in more expensive states—the fast food 
 
 ### Conclusion:
 Post includes a summary or conclusion with a question or challenge to encourage comments	

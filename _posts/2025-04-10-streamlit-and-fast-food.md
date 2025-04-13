@@ -27,9 +27,11 @@ The fast food items I compared were a Dominoâ€™s medium cheese pizza, McDonaldâ€
 
 <dl>
   <dt>Average income and fast food</dt>
-  <dd>(seen across almost all regions and all foods, except the west and Dominos's pizza)
+  <dd>One of the biggest trends and correlations in the data is found between any fast food and the average income value. The average correlation value between the national average income and average fast food item price is between 0.76 and 0.86, with the Dominos cheese pizza at a low 0.47. This is likely because pizzas are more expensive generally than a burger or sandwich. 
+
+  This trend is seen best when looking at a scatter plot of average income and a particular food item. All plots show a slight increasing linear trend, indicating a positive linear relationship. (See the scatter plots in the Streamlit section for visuals)
   </dd>
-  <dt>Fast foods to eachother</dt>
+  <dt>Fast foods to other fast foods</dt>
   <dd>(bigmac and chickfila)</dd>
 </dl>
 

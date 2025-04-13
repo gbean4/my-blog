@@ -25,7 +25,7 @@ This question also helped shape my analysis, influencing what I looked for in th
 
 <dl>
 <dt>Average Income and Fast Food</dt>
-<dd>One of the most notable trends in the data is the strong correlation between average income and fast food prices. The average correlation coefficient between national average income and the price of fast food items ranges from **0.76 to 0.86**, with **Domino’s cheese pizza** being an outlier at **0.47**. This lower correlation is likely due to pizza generally being more expensive than a burger or sandwich.</dd>
+<dd>One of the most notable trends in the data is the strong correlation between average income and fast food prices. The average correlation coefficient between national average income and the price of fast food items ranges from 0.76 to 0.86, with Domino’s cheese pizza being an outlier at **0.47. This lower correlation is likely due to pizza generally being more expensive than a burger or sandwich.</dd>
 <dd>This trend is most clearly observed in scatter plots comparing average income to individual food item prices. Each plot shows a slight upward linear trend, indicating a positive relationship. <i>(See the scatter plots in the Streamlit section for visuals.)</i>
 </dd>
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/kid_with_fries.jpg" alt="welppp"/>

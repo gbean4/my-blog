@@ -46,34 +46,37 @@ The major benefit to using a Streamlit application to explore the data is its ab
 #### Features:
 Post provides a detailed and engaging description of the app’s features, visualizations, and interactivity, including specific examples of how users can explore the data and gain insights.	
 
-Heatmap: Overall Correlation
+##### Heatmap: Overall Correlation
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/correlation_between_economic_factors_and_restaurant_prices.png" alt="welppp"/>
 
 The overall correlation heatmap is just what it sounds like, but in case of confusion, it includes a brief explanation to help guide interpretation and highlight where to look for meaningful relationships. This map represents the average of each economic factor and fast food price across all 50 states.
 
-Heatmap: Region Correlation (South and Northeast)
+##### Heatmap: Region Correlation (South and Northeast)
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/heatmap_region_south.jpg" alt="welppp"/>
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/heatmap_region_northeast.jpg" alt="welppp"/>
 
 While the overall map provides a useful high-level summary, the regional maps reveal how these relationships vary across the country. The most noticeable differences appear between the South and Northeast. Since the Northeast tends to have a wider range of household incomes and cost of living, and the South a narrower range, the regional heatmaps reflect these contrasts.
 
-Choropleth map: Fast Food and Exonomics by State
+##### Choropleth map: Fast Food and Exonomics by State
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/chloropeth_food.jpg" alt="welppp"/>
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/chloropeth_factor.jpg" alt="welppp"/>
 
 The choropleth maps are especially interesting for observing state-level trends. By selecting a specific food item and economic factor, you can compare how similar or different the two maps appear. Maps with similar color patterns suggest a positive relationship, while noticeable differences in coloring indicate a weaker or nonexistent trend.
 
 
-Scatterplot: Fast Food vs. Factor
+##### Scatterplot: Fast Food vs. Factor
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/scatter_plot.jpg" alt="welppp"/>
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/scatter_plot_wisconsin.jpg" alt="welppp"/>
-* Cost of living and GDP (except for outliers, ie Hawaii and Wisonsin Happy meals)
 
-Although not as clear numerically, the scatter plots show positive linear trends, or the lack thereof, in the data. Users can select an economic factor and food item to see how—as economic factors increase in more expensive states—the fast food 
+
+Although not as numerically precise, the scatter plots reveal positive linear trends—or the absence of them—within the data. Users can select an economic factor and a fast food item to explore how, as economic factors increase in more expensive states, fast food prices tend to rise as well. Scatter plots are also useful for identifying outliers. For example, in the second plot, there is a clear linear trend between average income and McDonald’s Happy Meal prices—except in the state of Wisconsin. This is valuable information, as outliers suggest that additional, untracked factors may be influencing the data.
 
 ### Conclusion:
-Post includes a summary or conclusion with a question or challenge to encourage comments	
+In my data, the trends and correlations indicate that economic factors do, in fact, impact fast food prices. This is evident across all states and regions, especially when comparing areas with higher costs of living or average incomes. My motivating question reflects the concern that when economic conditions worsen, the fast food industry may follow suit.
 
+The Streamlit application’s graphs and maps are incredibly useful for observing these trends and experimenting with different parameters to compare specific factors. I encourage you to continue exploring the app—and maybe even apply it to your own data questions!
+
+Below are links to my GitHub repository and a tutorial to help you get started on your own Streamlit adventures. Happy coding!
 
 <a href="https://github.com/gbean4/blog3_streamlit.git" target="_blank">GitHub Repository</a>
 

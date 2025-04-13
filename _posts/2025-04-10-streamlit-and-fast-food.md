@@ -19,9 +19,7 @@ The motivating question that guided my data curation and EDA was this:
 
 <b>How do state-level minimum wage, cost of living, median household income, and other factors impact the average price of a standard fast food meal across the U.S.?</b>
 
-This question also helped shape my analysis, influencing what I looked for in the data. Additional economic factors included in the analysis—but not listed in the question—were: average income, cost of living index, gross domestic product (GDP), GDP growth rate, and unemployment rate.
-
-The fast food items I compared were a Domino’s medium cheese pizza, McDonald’s Happy Meal and Big Mac, a Chick-fil-A sandwich, and a Taco Bell combo meal.
+This question also helped shape my analysis, influencing what I looked for in the data. Additional economic factors included in the analysis—but not listed in the question—were: average income, cost of living index, gross domestic product (GDP), GDP growth rate, and unemployment rate. The fast food items I compared were a Domino’s medium cheese pizza, McDonald’s Happy Meal and Big Mac, a Chick-fil-A sandwich, and a Taco Bell combo meal.
 
 ### Highlights:
 

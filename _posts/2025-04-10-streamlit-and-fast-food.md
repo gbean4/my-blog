@@ -26,13 +26,15 @@ The fast food items I compared were a Domino’s medium cheese pizza, McDonald�
 ### Highlights:
 
 <dl>
-  <dt>Average income and fast food</dt>
-  <dd>One of the biggest trends and correlations in the data is found between any fast food and the average income value. The average correlation value between the national average income and average fast food item price is between 0.76 and 0.86, with the Dominos cheese pizza at a low 0.47. This is likely because pizzas are more expensive generally than a burger or sandwich. 
+<dt>Average Income and Fast Food</dt>
+<dd>One of the most notable trends in the data is the strong correlation between average income and fast food prices. The average correlation coefficient between national average income and the price of fast food items ranges from **0.76 to 0.86**, with **Domino’s cheese pizza** being an outlier at **0.47**. This lower correlation is likely due to pizza generally being more expensive than a burger or sandwich.
 
-  This trend is seen best when looking at a scatter plot of average income and a particular food item. All plots show a slight increasing linear trend, indicating a positive linear relationship. (See the scatter plots in the Streamlit section for visuals)
-  </dd>
-  <dt>Fast foods to other fast foods</dt>
-  <dd>(bigmac and chickfila)</dd>
+This trend is most clearly observed in scatter plots comparing average income to individual food item prices. Each plot shows a slight upward linear trend, indicating a positive relationship. <i>(See the scatter plots in the Streamlit section for visuals.)</i>
+</dd>
+<dt>Fast Foods Compared to Each Other</dt>
+<dd>Another key insight from the data is the **strong relationship between fast food restaurants and each other**. This is most clearly shown in a **correlation heatmap by region** *(also featured in the next section)*. In the South, West, Northeast, and much of the Midwest, there is a high correlation between **McDonald’s and Chick-fil-A** prices. In some regions, this correlation is as high as **1:1**.
+
+Based on the heatmap and correlation values, the trend suggests that—regardless of the underlying factors (whether income-related or untracked variables like supply and demand)—fast food prices tend to increase in tandem across restaurants.</dd>
 </dl>
 
 

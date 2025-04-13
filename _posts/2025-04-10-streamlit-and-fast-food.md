@@ -28,9 +28,13 @@ This question also helped shape my analysis, influencing what I looked for in th
 <dd>One of the most notable trends in the data is the strong correlation between average income and fast food prices. The average correlation coefficient between national average income and the price of fast food items ranges from **0.76 to 0.86**, with **Domino’s cheese pizza** being an outlier at **0.47**. This lower correlation is likely due to pizza generally being more expensive than a burger or sandwich.</dd>
 <dd>This trend is most clearly observed in scatter plots comparing average income to individual food item prices. Each plot shows a slight upward linear trend, indicating a positive relationship. <i>(See the scatter plots in the Streamlit section for visuals.)</i>
 </dd>
+<img src="{{site.url}}/{{site.baseurl}}/assets/img/kid_with_fries.jpg" alt="welppp"/>
+
+
 <dt>Fast Foods Compared to Each Other</dt>
 <dd>Another key insight from the data is the strong relationship between fast food restaurants and each other. This is most clearly shown in a correlation heatmap by region <i>(also featured in the next section)</i>. In the South, West, Northeast, and much of the Midwest, there is a high correlation between McDonald’s and Chick-fil-A prices. In some regions, this correlation is as high as 1:1.</dd>
 <dd>Based on the heatmap and correlation values, the trend suggests that—regardless of the underlying factors, whether income-related or untracked variables like supply and demand—fast food prices tend to increase in tandem across restaurants.</dd>
+<img src="{{site.url}}/{{site.baseurl}}/assets/img/restaurants.jpg" alt="welppp"/>
 </dl>
 
 

@@ -25,7 +25,7 @@ This question also helped shape my analysis, influencing what I looked for in th
 
 <dl>
 <dt>Average Income and Fast Food</dt>
-<dd>One of the most notable trends in the data is the strong correlation between average income and fast food prices. The average correlation coefficient between national average income and the price of fast food items ranges from 0.76 to 0.86, with Domino’s cheese pizza being an outlier at **0.47. This lower correlation is likely due to pizza generally being more expensive than a burger or sandwich.</dd>
+<dd>One of the most notable trends in the data is the strong correlation between average income and fast food prices. The average correlation coefficient between national average income and the price of fast food items ranges from 0.76 to 0.86, with Domino’s cheese pizza being an outlier at 0.47. This lower correlation is likely due to pizza generally being more expensive than a burger or sandwich.</dd>
 <dd>This trend is most clearly observed in scatter plots comparing average income to individual food item prices. Each plot shows a slight upward linear trend, indicating a positive relationship. <i>(See the scatter plots in the Streamlit section for visuals.)</i>
 </dd>
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/kid_with_fries.jpg" alt="welppp"/>
@@ -41,10 +41,9 @@ This question also helped shape my analysis, influencing what I looked for in th
 ### Streamlit App: <a href="https://fast-food-analysis.streamlit.app/" target="_blank">Fast Food Analysis</a>
 
 #### Purpose:
-The major benefit to using a Streamlit application to explore the data is its ability to observe trends in many ways across many fronts. In my Streamlit, I focused on 4 different types of graphs or maps, such as an overall correlation map, a correlation map based on region, cloropleth maps for fast food items and factors, and a general scatter plot to track trends. Feel free to click the link above and see how each factor impacts your favorite chain restaurants. 
+The major benefit of using a Streamlit application to explore the data is its ability to reveal trends from multiple perspectives. In my Streamlit app, I focused on four different types of visualizations: an overall correlation heatmap, a regional correlation heatmap, choropleth maps for fast food items and economic factors, and a general scatter plot to track trends. Feel free to click the link above and explore how each factor impacts your favorite chain restaurants.
 
 #### Features:
-Post provides a detailed and engaging description of the app’s features, visualizations, and interactivity, including specific examples of how users can explore the data and gain insights.	
 
 ##### Heatmap: Overall Correlation
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/correlation_between_economic_factors_and_restaurant_prices.png" alt="welppp"/>

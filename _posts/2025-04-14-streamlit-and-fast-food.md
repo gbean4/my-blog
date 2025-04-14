@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Visualizing Using Streamlit: The Price of a Bite"
-date: 2025-04-16
+date: 2025-04-14
 description: Is there a cross-country road trip in your future? Maybe pack a lunch. This blog tackles key insights relating to how economic factors like minimum wage, cost of living, and household income influence the price of a standard meal. Look for the interactive Streamlit app for deeper exploration, and unpack what fast food prices reveal about broader regional economics.
 
 ---
